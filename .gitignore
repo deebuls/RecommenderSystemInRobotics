@@ -14,3 +14,7 @@ _book
 *.epub
 *.mobi
 *.pdf
+
+#swp files
+*.swp
+*.zip
