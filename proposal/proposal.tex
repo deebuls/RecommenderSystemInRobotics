@@ -1,0 +1,135 @@
+\documentclass[a4paper, 10pt]{report}   % list options between brackets
+\usepackage{fullpage}
+\usepackage[utf8]{inputenc}            % list packages between braces
+\usepackage[table]{xcolor}
+\usepackage[english]{babel}%.................. Language setup
+    \addto{\captionsenglish}{\renewcommand{\bibname}{References}}
+% type user-defined commands here
+
+\usepackage{graphicx}
+\begin{document}
+
+\title{ \fontsize{10mm}{25mm}\textbf{Use of Recommender System in Robotics}\\
+		 \vspace{20 mm} 
+		 {R\&D Project Proposal} \\
+		}   % type title between braces
+
+
+
+
+\author{\textbf{Deebul Nair} \\
+			\textit{Matrikel number : 9023573}\\
+					 \vspace{2 mm} 
+			\textit{email : deebul.nair@smail.inf.h-brs.de}\\
+					 \vspace{50 mm} 
+		{B-IT Master Studies Autonomous Systems}\\
+			{Advised by:}\\
+			\textbf{Prof. Dr. Paul Pl{\"o}ger}\\
+			\textbf{Iman Awaad}\\
+		{University of Applied Sciences Bonn-Rhein-Sieg}
+		}         % type author(s) between braces
+
+
+
+
+\maketitle
+
+\section*{Introduction}             % chapter 1
+\begin{itemize}
+	\item Decision making problem is a highly studied topic, especially in domain of autonomous decision making systems.
+	\item There are several models and techniques for decision making in autonomous robots. Sequential Decision Making, Markov Decision process are some of the popular techniques.
+	\item Decision making is a difficult problem because the agent has to search the complete state space to make an appropriate decision. This becomes extremely time consuming task, as the state space keeps on increasing.
+	\item Also situation arises when the decision making has to be done with only partial knowledge of the state space.
+\subsection*{Recommender systems}
+\begin{itemize}
+	\item Recommender systems are machine learning algorithms which produce a set of recommendations.
+	\item Recommender systems are extremely popular in the web domain for recommending movies, news, books and products in general to online users.
+	\item Recommender system are useful alternatives to search algorithms since they help users to discover item from an avalanche of items based on their preferences and needs.
+	\item Since recommender system can learn from a huge data set of items to help recommend a item for the user, this can be utilized in decision making of robotics to learn from huge state space and recommend a proper decision to take.
+\end{itemize}
+\label{sub:}
+
+	\item {My R\&D is to take this insight from recommender systems and adapt it to the analogous problem of making decision for robotics application.}
+\subsection*{Recommender system in Learning by Demonstration}
+\begin{itemize}
+	\item Learning by demonstration is a an approach in which the robot learns tasks based on the demonstrations shown by the teacher.
+	\item In general it is hard to infer which part of the demonstration the robot has to replicate.
+	\item The recommender system can be used in such scenario to recommend the robot which all features from the action are important for reproducing the action.
+\end{itemize}
+\label{sub:}
+
+\end{itemize}
+
+% subsection  (end)
+
+\section*{Related Work}
+\begin{itemize}
+
+\item In \cite{matikainen_model_2012}Matikainen  have applied this insight to develop a 
+Model Recommendation which applied the approach to computer vision; which uses this 
+collaborative filtering techniques as seen in recommender systems to recommend classifiers from 
+a large library for a computer vision task.
+\item In \cite{abdo_inferring_2014} Nichola Abdo et al. have applied this analogy to Learning from demonstration 
+for robots.  It uses the content based filtering approach to deal with the identification 
+of the relevant features that describe an action.
+\item Recently \cite{matikainen_multi-armed_2013} Matikainen has applied  collaborative filtering as an alternative to 
+multi task policy optimization. They investigate the problem of selecting a state 
+machine from a library to control a robot.
+\end{itemize}
+
+\section*{Detailed Project Plan}
+\begin{itemize}
+	\item Study literature about Recommender System and Learning by Demonstration.
+	\item List of available implementation of Recommender system which can be used for the project
+	\item Understand mathematics model behind working of the Recommender system.
+	\item Demonstration of application of Recommender system in the field of Learning by Demonstration
+	\item Kinesthetic Demonstration $\Rightarrow$ Making test setup for collection of information for learning 
+	\begin{itemize}
+		\item Selection of libraries for image processing (Marker detection	)
+		\item Recording kinematics of arm
+		\item Or Collect data using simulation
+	\end{itemize}
+	\item Implement $\rightarrow$ Model building of an action
+	\item Implement $\rightarrow$ Feature selection based on Model using Recommender system.
+	\item Base Implementation of \emph{"Reaching for a specific Object"}
+	\item Evaluate and Fine tune the above implementation
+	\item Experiment with different sets of recommender systems
+	\item Evaluate the results 
+	\item Methodology of adapting the recommender system to other fields of robotics .
+	\item Document the results in a R\&D report and optionally a paper.
+	
+\end{itemize}
+
+\section*{Expected Results}
+\begin{itemize}
+	\item Methodology for the problem formulation (model building) of recommender systems in Robotics
+	\item 1 Model build using recommender system for Manipulation
+	\item Evaluation of results
+\end{itemize}
+
+\section*{Gantt Chart}
+
+\begin{tabular}{|l|lllllllll|}
+\hline
+	Task & Dec15 & Jan & Feb & March & April & May & June & July & Aug15\\
+\hline
+	Literature Search & \cellcolor{green} & \cellcolor{green}& & & & & & & \\
+\hline
+	Data Collection &  & & & \cellcolor{green}& & & & & \\
+\hline
+	$1^{st}$ Model Implementation &  & & & \cellcolor{green}& \cellcolor{green}& & & & \\
+\hline
+	Recommender System &  & & & &\cellcolor{green} & \cellcolor{green}& & & \\
+\hline
+	Evaluation &  & & & & &\cellcolor{green} &\cellcolor{green} & & \\
+\hline
+	Documentation &  &\cellcolor{green}&\cellcolor{green} &\cellcolor{green} & \cellcolor{green}& \cellcolor{green}& \cellcolor{green}& \cellcolor{green}& \cellcolor{green}\\
+\hline
+
+\end{tabular}
+
+
+\bibliography{RecommenderSystemInRobotics.bib}{}
+\bibliographystyle{unsrt}
+\end{document}
+
