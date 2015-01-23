@@ -5,7 +5,7 @@
         
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=11; IE=10; IE=9; IE=8; IE=7; IE=EDGE" />
-        <title>Experiments and Results | </title>
+        <title>Different applications of Recommender Systems | </title>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
         <meta name="generator" content="GitBook 1.4.2">
@@ -19,10 +19,8 @@
         
     
     
-    <link rel="next" href="../Conclusions/README.html" />
     
-    
-    <link rel="prev" href="../Simulation/README.html" />
+    <link rel="prev" href="../Questions/README.html" />
     
 
         
@@ -34,7 +32,7 @@
 
 
         
-    <div class="book" data-level="5" data-basepath=".." data-revision="1422030264071">
+    <div class="book" data-level="8" data-basepath=".." data-revision="1422030264071">
     
 
 <div class="book-summary">
@@ -304,7 +302,7 @@
         </li>
     
         
-        <li class="chapter active" data-level="5" data-path="Experiments/README.html">
+        <li class="chapter " data-level="5" data-path="Experiments/README.html">
             
                 
                     <a href="../Experiments/README.html">
@@ -352,7 +350,7 @@
         </li>
     
         
-        <li class="chapter " data-level="8" data-path="Fields/README.html">
+        <li class="chapter active" data-level="8" data-path="Fields/README.html">
             
                 
                     <a href="../Fields/README.html">
@@ -456,16 +454,68 @@
                 <div class="page-inner">
                 
                 
+                    <section class="normal" id="section-gitbook_12">
+                    
+                        <h1 id="other-applications-of-recommender-systems">Other Applications of Recommender Systems</h1>
+<p>=============================</p>
+<ul>
+<li>Preferences of users in Task Planing</li>
+<li><p>Kernel Recommendation in SVM</p>
+<ul>
+<li>Firstly, linearity is rather special, and outside quantum mechanics no
+model of a real system is truly linear. Secondly, detecting linear
+relations has been the focus of much research in statistics and machine
+learning for decades and the resulting algorithms are well understood, well
+developed and efficient. Naturally, one wants the best of both worlds. So, if a
+problem is non-linear, instead of trying to fit a non-linear model, one can map
+the problem from the input space to a new (higher-dimensional) space (called
+the feature space) by doing a non-linear transformation using suitably chosen
+basis functions and then use a linear model in the feature space. This is known
+as the ‘kernel trick’. The linear model in the feature space corresponds to a
+non-linear model in the input space. This approach can be used in both
+classification and regression problems. The choice of kernel function is
+crucial for the success of all kernel algorithms because the kernel constitutes
+prior knowledge that is available about a task. Accordingly, there is no free
+lunch (see No Free Lunch Theorems) in kernel choice.[1]</li>
+<li>Recommender system : Collabrative Filter based can be used to determine 
+which algo to use.</li>
+</ul>
+</li>
+<li><p>Motion/Path Planning algo in Planning </p>
+<ul>
+<li>OMPL has implemented the following planners
+<a href="http://ompl.kavrakilab.org/planners.html" target="_blank">http://ompl.kavrakilab.org/planners.html</a></li>
+<li>Which planner to select can be done automatically explained here 
+  &quot;How OMPL selects a control-based planner
+If you use the ompl::control::SimpleSetup class (highly recommended) to define
+and solve your motion planning problem, then OMPL will automatically select an
+appropriate planner (unless you have explicitly specified one). If the state
+space has a default projection (which is going to be the case if you use any of
+the built-in state spaces), then it will use KPIECE. This planner has been
+shown to work well consistently across many real-world motion planning
+problems, which is why it is the default choice. In case the state space has no
+default projection, RRT will be used. Note that there are no bidirectional
+control-based planners, since we do not assume that there is a steering
+function that can connect two states exactly.&quot;</li>
+<li>Again Recommender Collabrative filter can be used to decide which algo to
+be used for recommendation.</li>
+</ul>
+</li>
+<li><p><a href="http://www.svms.org/kernels/" target="_blank">http://www.svms.org/kernels/</a></p>
+</li>
+</ul>
+
+                    
+                    </section>
+                
                 
                 </div>
             </div>
         </div>
 
         
-        <a href="../Simulation/README.html" class="navigation navigation-prev " aria-label="Previous page: Simulation and Evolution"><i class="fa fa-angle-left"></i></a>
+        <a href="../Questions/README.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: Open Questions"><i class="fa fa-angle-left"></i></a>
         
-        
-        <a href="../Conclusions/README.html" class="navigation navigation-next " aria-label="Next page: Conclusions"><i class="fa fa-angle-right"></i></a>
         
     </div>
 </div>
