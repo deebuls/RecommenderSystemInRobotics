@@ -1,7 +1,3 @@
 #Introduction
 
-|today | yesterday|
-|-----|-----|
-|was | taasd|
-|sdfj | fndf|
-
+* Feature selection, as a preprocessing step in 

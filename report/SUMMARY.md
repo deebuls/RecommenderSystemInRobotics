@@ -16,3 +16,4 @@
 * [Experiments and Results](Experiments/README.md)
 * [Conclusions](Conclusions/README.md)
 * [Open Questions](Questions/README.md)
+* [Different applications of Recommender Systems](Fields/README.md)
