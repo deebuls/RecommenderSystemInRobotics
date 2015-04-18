@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <package>
-  <name>mir_teleop</name>
+  <name>mir_teleop_record</name>
   <version>0.0.1</version>
   <description>teleoperation via joypad and keyboard</description>
 
@@ -21,6 +21,9 @@
   <build_depend>roscpp</build_depend>
   <build_depend>sensor_msgs</build_depend>
   <build_depend>std_srvs</build_depend>
+  <build_depend>tf2_msgs</build_depend>
+  <build_depend>tf2</build_depend>
+  <build_depend>tf</build_depend>
 
   <run_depend>brics_actuator</run_depend>
   <run_depend>geometry_msgs</run_depend>
@@ -28,5 +31,7 @@
   <run_depend>moveit_msgs</run_depend>
   <run_depend>sensor_msgs</run_depend>
   <run_depend>std_srvs</run_depend>
+  <run_depend>tf2_msgs</run_depend>
+  <run_depend>tf2</run_depend>
   
 </package>

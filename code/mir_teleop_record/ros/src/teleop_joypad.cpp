@@ -6,7 +6,20 @@
  */
 
 #include "mir_teleop/teleop_joypad.h"
+#include "rapidjson/writer.h"
+#include "rapidjson/prettywriter.h"
+#include "rapidjson/stringbuffer.h"
+#include <iostream>
+#include <stdio.h>      /* puts, printf */
+#include <time.h>       /* time_t, struct tm, time, localtime */
+#include <fstream>      /*for file writing*/
 
+using namespace rapidjson;
+using namespace std;
+
+const std::string TeleOpJoypad::frame_name_[9] =
+    {"arm_link_0", "arm_link_1", "arm_link_2", "arm_link_3", "arm_link_4", 
+     "arm_link_5", "gripper_palm_link", "gripper_finger_link_l","gripper_finger_link_r" };
 TeleOpJoypad::TeleOpJoypad(ros::NodeHandle &nh)
 {
     nh_ = &nh;
@@ -248,7 +261,6 @@ void TeleOpJoypad::cbJointStates(const sensor_msgs::JointState::ConstPtr& state_
 {
     current_joint_states_ = *state_msg;
 }
-
 bool TeleOpJoypad::switchMotorsOnOff(std::string component_name, std::string state)
 {
     std_srvs::Empty empty;
@@ -313,12 +325,17 @@ void TeleOpJoypad::setAllArmJointVel(double motor_vel)
         setSingleArmJointVel(motor_vel, arm_joint_names_[i]);
 }
 
-void TeleOpJoypad::printArmJointStates()
+void TeleOpJoypad::printArmJointStates(std::string state)
 {
     std::string joint_name_list = "";
-
     std::cout << "[";
 
+    //Creating stream for writing to the json file 
+    StringBuffer s;
+    PrettyWriter<StringBuffer> writer(s);
+    writer.StartObject();
+    writer.String("state");
+    writer.String(state.c_str());
     for (unsigned int i = 0; i < arm_joint_limits_.size(); i++)
     {
         for (unsigned int j = 0; j < current_joint_states_.name.size(); ++j)
@@ -327,7 +344,10 @@ void TeleOpJoypad::printArmJointStates()
             {
                 std::cout << current_joint_states_.position[j];
                 joint_name_list += current_joint_states_.name[j];
-
+                
+                //writing to the json file
+                writer.String(current_joint_states_.name[j].c_str());
+                writer.Double(current_joint_states_.position[j]);
                 if (i < (arm_joint_limits_.size() - 1))
                 {
                     std::cout << ", ";
@@ -336,8 +356,58 @@ void TeleOpJoypad::printArmJointStates()
             }
         }
     }
-    std::cout << "] \t # current arm joint values (" << joint_name_list << ")" << std::endl;
 
+
+    geometry_msgs::PoseStamped frame_pose ;
+    frame_pose.pose.orientation.w = 1;
+    // finding pose of each frames
+    for (unsigned int i = 0; i < 9; i++)
+    {
+        frame_pose.header.frame_id = TeleOpJoypad::frame_name_[i];
+        try{
+            tf_listener_.transformPose("odom", frame_pose , frame_pose);
+            std::cout << " pose : "<< frame_pose.pose.position.x << ":" <<
+                frame_pose.pose.position.y << ":" <<
+                frame_pose.pose.position.z <<std::endl;
+                //writing to the json file
+                
+                writer.String((frame_name_[i]+"_x").c_str());
+                writer.Double(frame_pose.pose.position.x);
+                writer.String((frame_name_[i]+"_y").c_str());
+                writer.Double(frame_pose.pose.position.y);
+                writer.String((frame_name_[i]+"_z").c_str());
+                writer.Double(frame_pose.pose.position.z);
+                writer.String((frame_name_[i]+"_ox").c_str());
+                writer.Double(frame_pose.pose.orientation.x);
+                writer.String((frame_name_[i]+"_oy").c_str());
+                writer.Double(frame_pose.pose.orientation.y);
+                writer.String((frame_name_[i]+"_oz").c_str());
+                writer.Double(frame_pose.pose.orientation.z);
+                writer.String((frame_name_[i]+"_ow").c_str());
+                writer.Double(frame_pose.pose.orientation.w);
+        }
+        catch (tf::TransformException ex){
+            ROS_ERROR("%s",ex.what());
+            ros::Duration(1.0).sleep();
+        }
+    }
+    //Closing the json stream
+    writer.EndObject();
+
+    time_t rawtime;
+    struct tm * timeinfo;
+
+    time (&rawtime);
+    timeinfo = localtime (&rawtime);
+
+    ofstream fileStr;
+    std::string name(asctime(timeinfo));
+    name = "/tmp/"+ state +"_" + name + ".json";
+    fileStr.open(name.c_str());
+    fileStr << s.GetString() << endl;
+    fileStr.close();
+
+    std::cout << "] \t # current arm joint values (" << joint_name_list << ")" << std::endl;
 }
 
 void TeleOpJoypad::checkArmJointLimits()
@@ -513,9 +583,13 @@ void TeleOpJoypad::cbJoypad(const sensor_msgs::Joy::ConstPtr& command)
     }
 
     //check if arm is in joint mode (not cc mode)
-    if (!button_print_arm_states_prev_ && (bool) command->buttons[button_index_print_arm_joint_states_])
-        this->printArmJointStates();
-
+    if ( (bool) command->buttons[button_index_print_arm_joint_states_])
+    {
+        if (button_arm_joint_1_2_pressed_prev_ && !((bool) command->buttons[button_index_arm_joint_1_2_]))
+            this->printArmJointStates("initial"); // with just single button initial
+        if (button_arm_joint_3_4_pressed_prev_ && !((bool) command->buttons[button_index_arm_joint_3_4_]))
+            this->printArmJointStates("final"); // With button 6 pressed print final
+    }
     // remember buttons states
     button_deadman_pressed_prev_ = (bool) command->buttons[button_index_deadman_];
     button_gripper_pressed_prev_ = ((bool) command->buttons[button_index_gripper_]);

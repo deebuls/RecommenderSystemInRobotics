@@ -10,13 +10,14 @@
 
 #include <string>
 #include <vector>
+#include <map>
 
 #include <moveit_msgs/JointLimits.h>
 #include <dynamic_reconfigure/server.h>
 #include <brics_actuator/JointVelocities.h>
 #include <brics_actuator/JointPositions.h>
-#include <geometry_msgs/Twist.h>
-#include <geometry_msgs/TwistStamped.h>
+#include <geometry_msgs/PoseStamped.h>
+#include <tf/transform_listener.h>
 #include <ros/ros.h>
 #include <sensor_msgs/Joy.h>
 #include <sensor_msgs/JointState.h>
@@ -44,11 +45,12 @@ class TeleOpJoypad
 
     void cbJoypad(const sensor_msgs::Joy::ConstPtr& command);
     void cbJointStates(const sensor_msgs::JointState::ConstPtr& state_msg);
+    void cbTFTransform(const tf2_msgs::TFMessage::ConstPtr& tf_msg);
     void cbDynamicReconfigure(mir_teleop::TeleopJoypadConfig &config, uint32_t level);
     void setAllArmJointVel(double motor_vel);
     void setSingleArmJointVel(double motor_vel, std::string joint_name);
     void checkArmJointLimits();
-    void printArmJointStates();
+    void printArmJointStates(std::string state);
 
     ros::NodeHandle* nh_;
 
@@ -58,6 +60,10 @@ class TeleOpJoypad
     mir_teleop::TeleopJoypadConfig teleop_config_;
 
     sensor_msgs::JointState current_joint_states_;
+
+    //contains all the frame name to record the pose
+    static const std::string frame_name_[] ;
+
     bool is_in_soft_joint_limits_;
     double soft_joint_limit_threshold_;
     double arm_max_vel_;
@@ -100,9 +106,14 @@ class TeleOpJoypad
 
     geometry_msgs::TwistStamped arm_cart_zero_vel_;
 
+    //Transform listener
+    tf::TransformListener tf_listener_;
+
     // Subscriber
     ros::Subscriber sub_joypad_;
     ros::Subscriber sub_joint_states_;
+    ros::Subscriber sub_tf_;    //Subscribing to tf
+
 
     // Publisher
     ros::Publisher pub_base_cart_vel_;

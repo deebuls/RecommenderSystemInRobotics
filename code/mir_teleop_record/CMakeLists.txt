@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(mir_teleop)
+project(mir_teleop_record)
 
 find_package(catkin REQUIRED
   COMPONENTS
@@ -11,12 +11,15 @@ find_package(catkin REQUIRED
     roscpp
     sensor_msgs
     std_srvs
+    tf
+    tf2
+    tf2_msgs
 )
 
 find_package(Boost REQUIRED)
 
 generate_dynamic_reconfigure_options(
-  ros/config/TeleopJoypad.cfg
+    ros/config/TeleopJoypadRecord.cfg
 )
 
 catkin_package(
@@ -26,6 +29,7 @@ catkin_package(
     mcr_teleop
     moveit_msgs
     sensor_msgs
+    tf2_msgs
     std_srvs
 )
 
@@ -34,19 +38,19 @@ include_directories(
   ros/include
 )
 
-add_executable(teleop_joypad_node 
-  ros/src/teleop_joypad_node.cpp
+add_executable(teleop_joypad_record_node
+  ros/src/teleop_joypad_record_node.cpp
   ros/src/teleop_joypad.cpp
 )
-add_dependencies(teleop_joypad_node
+add_dependencies(teleop_joypad_record_node
   ${catkin_EXPORTED_TARGETS}
   ${PROJECT_NAME}_gencfg
 )
-target_link_libraries(teleop_joypad_node
+target_link_libraries(teleop_joypad_record_node
   ${catkin_LIBRARIES}
 )
 
-install(TARGETS teleop_joypad_node
+install(TARGETS teleop_joypad_record_node
   ARCHIVE DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
   LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
   RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
