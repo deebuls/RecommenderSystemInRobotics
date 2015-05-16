@@ -30,7 +30,7 @@ def main(argv):
         print 'ERROR : Please specify experiment name'
         sys.exit()
     if (inputfile == ''):
-        inputfile = '/tmp/'
+        inputfile = '/tmp'
     print 'Input file is "', inputfile
     print 'Output file is "', outputfile
 
@@ -40,10 +40,13 @@ if __name__ == "__main__":
     inputfile, outputfile = main(sys.argv[1:])
 
     print 'Creating Directory ', outputfile
-    os.system("mkdir " + outputfile)
+    if (0 != os.system("mkdir " + outputfile)):
+        exit();
     print 'Copying all json files from ', inputfile, " to ", outputfile
-    os.system("mv " + inputfile + "*.json" + " " + outputfile)
-    read_files = sorted(glob.glob("./reach/i*.json"))
+    if (0 != os.system("mv " + inputfile + "/" + "*.json" + " " + outputfile)):
+        exit()
+        
+    read_files = sorted(glob.glob("./" + outputfile + "/" + "i*.json"))
     output_list = []
 
     print 'reading all the initial files'
@@ -52,12 +55,12 @@ if __name__ == "__main__":
             output_list.append(json.load(infile))
 
     print 'creating the combined json INITIAL file'
-    with open("./" + outputfile + "/" + "initial.json", "wb") as outfile:
+    with open("./" + outputfile + "/" + "INITIAL.json", "wb") as outfile:
         json.dump(output_list, outfile)
 
     del read_files
     print 'reading all the FINAL files'
-    read_files = sorted(glob.glob("./reach/f*.json"))
+    read_files = sorted(glob.glob("./" + outputfile + "/" + "f*.json"))
     output_list = []
 
     for f in read_files:
@@ -65,7 +68,7 @@ if __name__ == "__main__":
             output_list.append(json.load(infile))
 
     print 'creating the combined json FINAL file'
-    with open("./" + outputfile + "/" + "final.json", "wb") as outfile:
+    with open("./" + outputfile + "/" + "FINAL.json", "wb") as outfile:
         json.dump(output_list, outfile)
 
 
