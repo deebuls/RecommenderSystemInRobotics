@@ -32,7 +32,7 @@
 
 
         
-    <div class="book" data-level="9" data-basepath=".." data-revision="1431800029733">
+    <div class="book" data-level="9" data-basepath=".." data-revision="1431802769434">
     
 
 <div class="book-summary">
@@ -488,10 +488,10 @@ Teaching the Action)</li>
 </ol>
 <h3 id="to-do">TO DO</h3>
 <ol>
-<li>Create a permanent setup of Youbot for taking Demonstrations</li>
-<li>Automating the process of recording the demonstrations .</li>
+<li><del>Create a permanent setup of Youbot for taking Demonstrations</del></li>
+<li><del>Automating the process of recording the demonstrations .</del></li>
 <li>Coding the Recommender System </li>
-<li>Coding the Model </li>
+<li>~~Coding the Model ~~</li>
 <li>Understanding the Trajectory follower for YouBot and using it.</li>
 <li>Understanding the Reproduction of Action part of the Paper</li>
 <li>Mailing Nicholas, if he could provide his readings so that using the new
@@ -513,6 +513,59 @@ semantic object-action relations. In Intelligent Robots and Systems (IROS),
 </li>
 <li>How to evaluate the recommender ?</li>
 <li>Other experiments to evaluate the model ?</li>
+</ol>
+<h2 id="7-may-2015">7 May, 2015</h2>
+<h3 id="completed">Completed</h3>
+<ol>
+<li>Permanent setup for taking YouBot Demonstrations</li>
+<li>Code for reading the YouBot parameters and the creating the learning model
+based on Information theory.</li>
+<li>Conducted 2 experiments and reported the findings</li>
+</ol>
+<h3 id="to-do">TO DO</h3>
+<ol>
+<li>Creation of the template library</li>
+<li>Creation of recommender.</li>
+</ol>
+<h3 id="open-questions">Open questions</h3>
+<ol>
+<li>Use of simulator for making the observations. Gazebo doesnt support
+velocity controller so I cannot make use of the joy pad to record the
+movements in simulator</li>
+<li>Evaluation with multiple starting positions without simulator or some
+other approaches</li>
+<li>Approaches for building the templates . so that the recommender can
+be made generic to all manipulators.</li>
+</ol>
+<h2 id="april">April</h2>
+<h3 id="completed">Completed</h3>
+<ol>
+<li>Literature for creating library of templates based on manipulators</li>
+<li>Template creation for skills<ul>
+<li>place</li>
+<li>Align</li>
+<li>Press</li>
+</ul>
+</li>
+</ol>
+<h3 id="to-do">TO DO</h3>
+<ol>
+<li>Implement following paper on skill based representation of tasks done by
+mobile robot manipulators in industrial environments.
+  Bøgh, S., Hvilshøj, M., Kristiansen, M., &amp; Madsen, O. (2012). Identifying
+and evaluating suitable tasks for autonomous industrial mobile manipulators
+(AIMM). The International Journal of Advanced Manufacturing Technology,
+61(5-8), 713–726. <a href="http://doi.org/10.1007/s00170-011-3718-3" target="_blank">http://doi.org/10.1007/s00170-011-3718-3</a></li>
+</ol>
+<h3 id="open-questions">Open Questions</h3>
+<ol>
+<li>All skills cannot be completely explained in single action (learning single
+start and single end). Example &quot;pick&quot; consist of 2 actions(or motion
+primitives) reach and pick. Similarly &quot;Unload&quot;</li>
+<li>So how to create templates for such skill and also recommendation for such
+skills.</li>
+<li>Use of OAC&#39;s</li>
+<li>Pre condition and Post condition for skill. How to learn those ?</li>
 </ol>
 
                     
