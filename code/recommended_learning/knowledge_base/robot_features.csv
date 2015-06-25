@@ -1,0 +1,15 @@
+arm_link_0
+arm_link_1
+arm_link_2
+arm_link_3
+arm_link_4
+arm_link_5
+gripper_palm_link
+gripper_finger_link_l
+gripper_finger_link_r
+base_footprint
+base_link
+wheel_link_bl
+wheel_link_br
+wheel_link_fl
+wheel_link_fr

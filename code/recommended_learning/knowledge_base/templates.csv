@@ -1,0 +1,6 @@
+move_to arm_link_0 arm_link_1
+move_to arm_link_2 arm_link_3
+check gripper_finger_link_r base_link
+align wheel_link_bl wheel_link_br
+shovel gripper_finger_link_l
+move_to

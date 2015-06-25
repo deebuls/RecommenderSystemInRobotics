@@ -25,5 +25,4 @@
   <node pkg="tf" type="static_transform_publisher" name="table_6" args="1.863, 0.018, 0.000, 0.000, 0.000, 1.000, -0.02002 map table_6 100" />
   <node pkg="tf" type="static_transform_publisher" name="table_7" args="2.326, 0.025, 0.000, 0.000, 0.000, 0.020, 1.000 map table_7 100" />
    <!-- Transform publishing for objects on various tables -->
-  <node pkg="tf" type="static_transform_publisher" name="object_1" args="0.000,0.000 , 0.000, 0.000, 0.000, 1.000, -0.01022 table_5 object_1 100" />
 </launch>

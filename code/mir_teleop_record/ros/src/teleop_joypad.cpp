@@ -16,10 +16,13 @@
 
 using namespace rapidjson;
 using namespace std;
-
-const std::string TeleOpJoypad::frame_name_[9] =
+const int NUM_OF_FEATURES = 23;
+const std::string TeleOpJoypad::frame_name_[NUM_OF_FEATURES] =
     {"arm_link_0", "arm_link_1", "arm_link_2", "arm_link_3", "arm_link_4", 
-     "arm_link_5", "gripper_palm_link", "gripper_finger_link_l","gripper_finger_link_r" };
+     "arm_link_5", "gripper_palm_link", "gripper_finger_link_l","gripper_finger_link_r",
+     "base_footprint", "base_link", "wheel_link_bl", "wheel_link_br", "wheel_link_fl", "wheel_link_fr" ,
+    "table_1","table_2","table_3","table_4","table_5","table_6","table_7",
+    "object_1"};
 TeleOpJoypad::TeleOpJoypad(ros::NodeHandle &nh)
 {
     nh_ = &nh;
@@ -361,11 +364,14 @@ void TeleOpJoypad::printArmJointStates(std::string state)
     geometry_msgs::PoseStamped frame_pose ;
     frame_pose.pose.orientation.w = 1;
     // finding pose of each frames
-    for (unsigned int i = 0; i < 9; i++)
+    for (unsigned int i = 0; i < NUM_OF_FEATURES; i++)
     {
         frame_pose.header.frame_id = TeleOpJoypad::frame_name_[i];
         try{
+            tf_listener_.waitForTransform("odom", TeleOpJoypad::frame_name_[i],
+                                                  ros::Time::now(), ros::Duration(3.0));
             tf_listener_.transformPose("odom", frame_pose , frame_pose);
+
             std::cout << " pose : "<< frame_pose.pose.position.x << ":" <<
                 frame_pose.pose.position.y << ":" <<
                 frame_pose.pose.position.z <<std::endl;
