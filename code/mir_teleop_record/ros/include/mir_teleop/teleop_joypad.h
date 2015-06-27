@@ -22,7 +22,7 @@
 #include <sensor_msgs/Joy.h>
 #include <sensor_msgs/JointState.h>
 #include <std_srvs/Empty.h>
-
+#include <std_msgs/String.h>
 #include <boost/units/systems/si.hpp>
 #include <boost/units/io.hpp>
 
@@ -120,6 +120,7 @@ class TeleOpJoypad
     ros::Publisher pub_arm_joint_vel_;
     ros::Publisher pub_arm_cart_vel_;
     ros::Publisher pub_gripper_position_;
+    ros::Publisher pub_barcode_reader_;    //Advertise to pub barcode
 
     // Service clients
     ros::ServiceClient srv_arm_motors_on_;

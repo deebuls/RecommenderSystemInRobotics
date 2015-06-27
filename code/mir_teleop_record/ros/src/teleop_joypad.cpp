@@ -16,13 +16,13 @@
 
 using namespace rapidjson;
 using namespace std;
-const int NUM_OF_FEATURES = 23;
+const int NUM_OF_FEATURES = 25;
 const std::string TeleOpJoypad::frame_name_[NUM_OF_FEATURES] =
     {"arm_link_0", "arm_link_1", "arm_link_2", "arm_link_3", "arm_link_4", 
      "arm_link_5", "gripper_palm_link", "gripper_finger_link_l","gripper_finger_link_r",
      "base_footprint", "base_link", "wheel_link_bl", "wheel_link_br", "wheel_link_fl", "wheel_link_fr" ,
     "table_1","table_2","table_3","table_4","table_5","table_6","table_7",
-    "object_1"};
+    "object_1", "object_2", "object_3"};
 TeleOpJoypad::TeleOpJoypad(ros::NodeHandle &nh)
 {
     nh_ = &nh;
@@ -71,6 +71,7 @@ TeleOpJoypad::TeleOpJoypad(ros::NodeHandle &nh)
     srv_arm_motors_off_ = nh_->serviceClient < std_srvs::Empty > ("/arm_1/switchOffMotors");
     srv_reconnect = nh_->serviceClient < std_srvs::Empty > ("/reconnect");
 
+    pub_barcode_reader_ = nh_->advertise < std_msgs::String > ("/mcr_perception/barcode_reader/event_in", 1 );
 }
 
 bool TeleOpJoypad::getJoypadConfigParameter()
@@ -330,6 +331,13 @@ void TeleOpJoypad::setAllArmJointVel(double motor_vel)
 
 void TeleOpJoypad::printArmJointStates(std::string state)
 {
+    //trigger to publish the  pose of the markers
+    if (state.compare("initial") == 0 )
+    {
+        std_msgs::String message;
+            message.data = "e_trigger";
+        pub_barcode_reader_.publish(message);
+    }
     std::string joint_name_list = "";
     std::cout << "[";
 
@@ -361,22 +369,21 @@ void TeleOpJoypad::printArmJointStates(std::string state)
     }
 
 
-    geometry_msgs::PoseStamped frame_pose ;
-    frame_pose.pose.orientation.w = 1;
     // finding pose of each frames
     for (unsigned int i = 0; i < NUM_OF_FEATURES; i++)
     {
+        geometry_msgs::PoseStamped frame_pose ;
+        frame_pose.pose.orientation.w = 1;
         frame_pose.header.frame_id = TeleOpJoypad::frame_name_[i];
         try{
             tf_listener_.waitForTransform("odom", TeleOpJoypad::frame_name_[i],
-                                                  ros::Time::now(), ros::Duration(3.0));
+                                                  ros::Time::now(), ros::Duration(1.0));
             tf_listener_.transformPose("odom", frame_pose , frame_pose);
 
-            std::cout << " pose : "<< frame_pose.pose.position.x << ":" <<
+            std::cout <<i<< " pose : "<<TeleOpJoypad::frame_name_[i]<<" "<< frame_pose.pose.position.x << ":" <<
                 frame_pose.pose.position.y << ":" <<
                 frame_pose.pose.position.z <<std::endl;
                 //writing to the json file
-                
                 writer.String((frame_name_[i]+"_x").c_str());
                 writer.Double(frame_pose.pose.position.x);
                 writer.String((frame_name_[i]+"_y").c_str());
@@ -408,12 +415,20 @@ void TeleOpJoypad::printArmJointStates(std::string state)
 
     ofstream fileStr;
     std::string name(asctime(timeinfo));
+    std::replace(name.begin(), name.end(), ' ', '_');
+    name = name.substr(0,name.size()-1);
     name = "/tmp/"+ state +"_" + name + ".json";
     fileStr.open(name.c_str());
     fileStr << s.GetString() << endl;
     fileStr.close();
 
-    std::cout << "] \t # current arm joint values (" << joint_name_list << ")" << std::endl;
+    if(state.compare("initial") == 0 )
+    {
+        std_msgs::String message;
+            message.data = "e_stop";
+        pub_barcode_reader_.publish(message);
+    }
+   std::cout << "] \t # current arm joint values (" << joint_name_list << ")" << std::endl;
 }
 
 void TeleOpJoypad::checkArmJointLimits()
