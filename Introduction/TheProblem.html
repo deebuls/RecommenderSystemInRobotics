@@ -5,7 +5,7 @@
         
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=11; IE=10; IE=9; IE=8; IE=7; IE=EDGE" />
-        <title>The Problem Statement and Motivation | </title>
+        <title>The Problem Statement and Motivation | Build instructions</title>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
         <meta name="generator" content="GitBook 1.4.2">
@@ -34,7 +34,7 @@
 
 
         
-    <div class="book" data-level="1.1" data-basepath=".." data-revision="1431802769434">
+    <div class="book" data-level="1.1" data-basepath=".." data-revision="1435816236224">
     
 
 <div class="book-summary">
@@ -466,13 +466,128 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="../" ></a>
+        <a href="../" >Build instructions</a>
     </h1>
 </div>
 
             <div class="page-wrapper" tabindex="-1">
                 <div class="page-inner">
                 
+                
+                    <section class="normal" id="section-gitbook_6">
+                    
+                        <h1 id="learning-skill-for-mobile-manipulators--by-learning-by-demonstration">Learning skill for Mobile manipulators  by Learning by Demonstration.</h1>
+<p>Task level programming is an important research statement for mobile
+manipulators in the industrial environments. From extensive analysis of
+industrial robots [1], it has been observed that many
+tasks in the industrial environments can be solved using pre defined building
+blocks, called as skills.</p>
+<p>In [2] an overview is presented on how to implement a skill-based
+architecture, enabling reuse of skills for different industri-
+al applications, programmed by shop-floor workers. It further proposes finding 
+the skills by analyzing real-world implementations and Standard Operating 
+Procedures (SOP) from an industrial partner. The identified skills has to be
+consistent with human intutition. Based on the analysis by Bøgh et al [1] the
+ skills identifyied for solving industrial tasks is presented in table.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Skill</th>
+<th style="text-align:left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Move to</td>
+<td style="text-align:left">To go from one location (station) to another in the factory</td>
+</tr>
+<tr>
+<td style="text-align:left">Locate</td>
+<td style="text-align:left">To determine or specify the position of anobject by searching or examining</td>
+</tr>
+<tr>
+<td style="text-align:left">Pick up</td>
+<td style="text-align:left">To take hold of and lift up</td>
+</tr>
+<tr>
+<td style="text-align:left">Place</td>
+<td style="text-align:left">To arrange something in a certain spot orposition</td>
+</tr>
+<tr>
+<td style="text-align:left">Unload</td>
+<td style="text-align:left">Unload a container: to remove, dischargeor empty the contents from a container</td>
+</tr>
+<tr>
+<td style="text-align:left">Shovel</td>
+<td style="text-align:left">To take up and move objects with a shovel</td>
+</tr>
+<tr>
+<td style="text-align:left">Check</td>
+<td style="text-align:left">Quality control: the act or process of test-ing, verifying or examining</td>
+</tr>
+<tr>
+<td style="text-align:left">Align</td>
+<td style="text-align:left">To make an object come into precise ad-justment or correct relative position to an-other object</td>
+</tr>
+<tr>
+<td style="text-align:left">Open</td>
+<td style="text-align:left">To move (as a door) from a closed positionand make available for entry, passage oraccessible</td>
+</tr>
+<tr>
+<td style="text-align:left">Close</td>
+<td style="text-align:left">To move (as a door) from an open position</td>
+</tr>
+<tr>
+<td style="text-align:left">Press</td>
+<td style="text-align:left">To press against with force in order todrive or impel</td>
+</tr>
+<tr>
+<td style="text-align:left">Release</td>
+<td style="text-align:left">To let go or set free from restraint e.g. release a button</td>
+</tr>
+<tr>
+<td style="text-align:left">Turn</td>
+<td style="text-align:left">To turn a knob or handle</td>
+</tr>
+</tbody>
+</table>
+<p>As we can see this short set of skills is sufficient for solving a large set of
+industrial tasks.</p>
+<p>Currently much of the robot programming is carried out by engineers and are
+usually written from scratch for new robots.</p>
+<p>Learning by Demonstration has been active field of research for the past 20
+years. Different approaches for learning has been explored like probabilistic
+approach GMM,HMM and Dynamical level learning like DMP. But most of the learning are 
+generally done at the motion primitive level. Most of the learning is to learn a
+single skill. Very less efforts have been seen at learning at the skill level.</p>
+<p>Since the skills required in the industrial environments are well defined we
+can use this information for teaching the robot these skills for new scenarios 
+with programming by demonstration.</p>
+<h2 id="problem-statement">Problem Statement</h2>
+<ul>
+<li>To create a set of templates for each skill. The template determine the most
+important feature required for learning the skill from the deomstration.
+This process of creating template is done before learning. </li>
+<li>Demonstrations of the skill are done with the robot using
+teleoperations.</li>
+<li>Based on the demonstration and the insight of which skill is being learnt the
+learning algorithm recommends the best suited template for reproducing the
+skill.</li>
+<li>The recommendations are based on the concepts of content based recommender
+systems as demonstrated by Nicholo Abdo et al [3]</li>
+</ul>
+<p>[1] Bøgh, S., Hvilshøj, M., Kristiansen, M., &amp; Madsen, O. (2012). Identifying
+and evaluating suitable tasks for autonomous industrial mobile manipulators
+(AIMM). The International Journal of Advanced Manufacturing Technology,
+61(5-8), 713–726. <a href="http://doi.org/10.1007/s00170-011-3718-3" target="_blank">http://doi.org/10.1007/s00170-011-3718-3</a></p>
+<p>[2] Bøgh, S., Nielsen, O. S., Pedersen, M. R., Krüger, V., &amp; Madsen, O. (2012).
+Does your robot have skills? In The 43rd Intl. Symp. on Robotics (ISR2012).</p>
+<p>[3] Abdo, N., Spinello, L., Burgard, W., &amp; Stachniss, C. (n.d.). Inferring What
+to Imitate in Manipulation Actions by Using a Recommender System. In ICRA (Vol.
+31, pp. 189–206). Springer$}$. </p>
+
+                    
+                    </section>
                 
                 
                 </div>
