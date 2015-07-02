@@ -94,3 +94,21 @@ primitives) reach and pick. Similarly "Unload"
    skills.
 3. Use of OAC's
 4. Pre condition and Post condition for skill. How to learn those ?
+
+## June
+
+### Completed
+1. Feature selector framework based on recommendation completed
+2. Tool for users to add recommendation
+3. Knowledge base creation for each skill -> schema of knowledge base
+3. Experiments for 1 skill : moveto
+    * moving  base to an absolute position
+    * moving base to a relative position to environment
+    * moving arm to an absolute position
+    * moving arm to a relative position to environment
+
+### TODO
+
+1. 1 more skill : allign
+2. Evaluation ? :
+    * In paper evaluation is based on the number of demonstrations

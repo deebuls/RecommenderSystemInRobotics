@@ -1,4 +1,20 @@
-# Learning skill for Mobile manipulators  by Learning by Demonstration.
+# Learning skill for Mobile manipulators  by Programming by Demonstration.
+
+* Programming by demonstration(PbD) or Learning by Demonstration (LbD) 
+    * make robots perform new task
+    * rather than manually programming the robot with a desired task the
+      robot can develop the knowledge for doing the task from observations.
+    * Even users with no programming ability have to be able to make a robot do
+      novel task.
+
+* In [Robotic handbook ] Billard et all has provided the rationale for moving
+  from pre programmed robot to self learning robots are 
+    * Programming by demonstration results in reducing the complexity of the
+      search spaces for learning.
+    * It reduces or elimates tedious programming required by human user 
+    * Studying and modelling the coupling of action and perception.
+
+-------------------------------
 
 Task level programming is an important research statement for mobile
 manipulators in the industrial environments. From extensive analysis of
@@ -10,7 +26,7 @@ In [2] an overview is presented on how to implement a skill-based
 architecture, enabling reuse of skills for different industri-
 al applications, programmed by shop-floor workers. It further proposes finding 
 the skills by analyzing real-world implementations and Standard Operating 
-Procedures (SOP) from an industrial partner. The identifyed skills has to be
+Procedures (SOP) from an industrial partner. The identified skills has to be
 consistent with human intutition. Based on the analysis by Bøgh et al [1] the
  skills identifyied for solving industrial tasks is presented in table.
 
@@ -31,7 +47,7 @@ consistent with human intutition. Based on the analysis by Bøgh et al [1] the
 | Turn     |To turn a knob or handle|
 
 
-As we can see this short set of skills is sifficient for solving a large set of
+As we can see this short set of skills is sufficient for solving a large set of
 industrial tasks.
 
 Currently much of the robot programming is carried out by engineers and are
@@ -40,7 +56,7 @@ usually written from scratch for new robots.
 Learning by Demonstration has been active field of research for the past 20
 years. Different approaches for learning has been explored like probabilistic
 approach GMM,HMM and Dynamical level learning like DMP. But most of the learning are 
-generall done at the motion primitive level. Most of the learning is to learn a
+generally done at the motion primitive level. Most of the learning is to learn a
 single skill. Very less efforts have been seen at learning at the skill level.
 
 Since the skills required in the industrial environments are well defined we
