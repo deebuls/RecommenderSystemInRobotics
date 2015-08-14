@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="297mm"
+   height="210mm"
+   id="svg6163"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="feature_space.svg">
+  <defs
+     id="defs6165" />
+  <sodipodi:namedview
+     inkscape:document-units="mm"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="273.17469"
+     inkscape:cy="294.32118"
+     inkscape:current-layer="layer1"
+     id="namedview6167"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="744"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     units="mm" />
+  <metadata
+     id="metadata6169">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="opacity:0.76954734999999985;fill:#3182bd;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;fill-opacity:1"
+       id="rect6172"
+       width="497.90256"
+       height="302.94647"
+       x="196.86742"
+       y="205.09824"
+       inkscape:export-filename="/data/dataDeebul/rnd/RecommenderSystemInRobotics/tex/rnd_report_tex/images/feature_space.png"
+       inkscape:export-xdpi="324.42661"
+       inkscape:export-ydpi="324.42661" />
+    <path
+       sodipodi:type="arc"
+       style="opacity:0.76954734999999985;fill:#9ecae1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;fill-opacity:1"
+       id="path6174"
+       sodipodi:cx="441.51819"
+       sodipodi:cy="364.69464"
+       sodipodi:rx="124.23672"
+       sodipodi:ry="121.36972"
+       d="m 565.75491,364.69464 a 124.23672,121.36972 0 1 1 -248.47344,0 124.23672,121.36972 0 1 1 248.47344,0 z"
+       inkscape:export-filename="/data/dataDeebul/rnd/RecommenderSystemInRobotics/tex/rnd_report_tex/images/feature_space.png"
+       inkscape:export-xdpi="324.42661"
+       inkscape:export-ydpi="324.42661" />
+    <path
+       sodipodi:type="arc"
+       style="opacity:0.76954734999999985;fill:#deebf7;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;fill-opacity:1"
+       id="path6185"
+       sodipodi:cx="56.384357"
+       sodipodi:cy="445.92636"
+       sodipodi:rx="25.803011"
+       sodipodi:ry="26.758678"
+       d="m 82.187368,445.92636 a 25.803011,26.758678 0 1 1 -51.606021,0 25.803011,26.758678 0 1 1 51.606021,0 z"
+       transform="translate(384.6215,-89.290557)"
+       inkscape:export-filename="/data/dataDeebul/rnd/RecommenderSystemInRobotics/tex/rnd_report_tex/images/feature_space.png"
+       inkscape:export-xdpi="324.42661"
+       inkscape:export-ydpi="324.42661" />
+    <path
+       transform="translate(423.36052,-89.290557)"
+       sodipodi:type="arc"
+       style="opacity:0.76954734999999985;fill:#deebf7;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;fill-opacity:1"
+       id="path6185-9"
+       sodipodi:cx="56.384357"
+       sodipodi:cy="445.92636"
+       sodipodi:rx="25.803011"
+       sodipodi:ry="26.758678"
+       d="m 82.187368,445.92636 a 25.803011,26.758678 0 1 1 -51.606021,0 25.803011,26.758678 0 1 1 51.606021,0 z"
+       inkscape:export-filename="/data/dataDeebul/rnd/RecommenderSystemInRobotics/tex/rnd_report_tex/images/feature_space.png"
+       inkscape:export-xdpi="324.42661"
+       inkscape:export-ydpi="324.42661" />
+    <path
+       transform="translate(409.98119,-16.246353)"
+       sodipodi:type="arc"
+       style="opacity:0.76954734999999985;fill:#deebf7;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;fill-opacity:1"
+       id="path6185-5"
+       sodipodi:cx="56.384357"
+       sodipodi:cy="445.92636"
+       sodipodi:rx="25.803011"
+       sodipodi:ry="26.758678"
+       d="m 82.187368,445.92636 a 25.803011,26.758678 0 1 1 -51.606021,0 25.803011,26.758678 0 1 1 51.606021,0 z"
+       inkscape:export-filename="/data/dataDeebul/rnd/RecommenderSystemInRobotics/tex/rnd_report_tex/images/feature_space.png"
+       inkscape:export-xdpi="324.42661"
+       inkscape:export-ydpi="324.42661" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Charter;-inkscape-font-specification:Sans"
+       x="218.58177"
+       y="252.77328"
+       id="text6212"
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="/data/dataDeebul/rnd/RecommenderSystemInRobotics/tex/rnd_report_tex/images/feature_space.png"
+       inkscape:export-xdpi="324.42661"
+       inkscape:export-ydpi="324.42661"><tspan
+         sodipodi:role="line"
+         id="tspan6214"
+         x="218.58177"
+         y="252.77328">F</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Charter;-inkscape-font-specification:Sans"
+       x="368.00085"
+       y="311.62061"
+       id="text6216"
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="/data/dataDeebul/rnd/RecommenderSystemInRobotics/tex/rnd_report_tex/images/feature_space.png"
+       inkscape:export-xdpi="324.42661"
+       inkscape:export-ydpi="324.42661"><tspan
+         sodipodi:role="line"
+         id="tspan6218"
+         x="368.00085"
+         y="311.62061">K</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Charter;-inkscape-font-specification:Sans"
+       x="419.1832"
+       y="361.12381"
+       id="text6220"
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="/data/dataDeebul/rnd/RecommenderSystemInRobotics/tex/rnd_report_tex/images/feature_space.png"
+       inkscape:export-xdpi="324.42661"
+       inkscape:export-ydpi="324.42661"><tspan
+         sodipodi:role="line"
+         id="tspan6222"
+         x="419.1832"
+         y="361.12381"
+         style="font-size:24px">t<tspan
+   style="font-size:24px;baseline-shift:sub"
+   id="tspan6232">1</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Charter;-inkscape-font-specification:Sans"
+       x="480"
+       y="361.12381"
+       id="text6224"
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="/data/dataDeebul/rnd/RecommenderSystemInRobotics/tex/rnd_report_tex/images/feature_space.png"
+       inkscape:export-xdpi="324.42661"
+       inkscape:export-ydpi="324.42661"><tspan
+         sodipodi:role="line"
+         id="tspan6226"
+         x="480"
+         y="361.12381"
+         style="font-size:24px">t<tspan
+   style="font-size:24px;baseline-shift:sub"
+   id="tspan6234">2</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Charter;-inkscape-font-specification:Sans"
+       x="456.15375"
+       y="434.03601"
+       id="text6228"
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="/data/dataDeebul/rnd/RecommenderSystemInRobotics/tex/rnd_report_tex/images/feature_space.png"
+       inkscape:export-xdpi="324.42661"
+       inkscape:export-ydpi="324.42661"><tspan
+         sodipodi:role="line"
+         id="tspan6230"
+         x="456.15375"
+         y="434.03601"
+         style="font-size:24px">t<tspan
+   style="font-size:24px;baseline-shift:sub"
+   id="tspan6236">3</tspan></tspan></text>
+    <rect
+       style="opacity:0.76954734999999996;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect6746"
+       width="582"
+       height="395"
+       x="151"
+       y="161.09448"
+       inkscape:export-filename="/data/dataDeebul/rnd/RecommenderSystemInRobotics/tex/rnd_report_tex/images/feature_space.png"
+       inkscape:export-xdpi="324.42661"
+       inkscape:export-ydpi="324.42661" />
+  </g>
+</svg>

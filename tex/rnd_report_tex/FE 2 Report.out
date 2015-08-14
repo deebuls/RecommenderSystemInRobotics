@@ -1,0 +1,46 @@
+\BOOKMARK [1][]{section.1}{Introduction}{}% 1
+\BOOKMARK [2][]{subsection.1.1}{Why not the term "recommender system" ?}{section.1}% 2
+\BOOKMARK [1][]{section.2}{Problem Statement}{}% 3
+\BOOKMARK [2][]{subsection.2.1}{Deriving a policy: Goal based mapping}{section.2}% 4
+\BOOKMARK [2][]{subsection.2.2}{Goal based mapping on relevant features}{section.2}% 5
+\BOOKMARK [1][]{section.3}{ Related Work }{}% 6
+\BOOKMARK [2][]{subsection.3.1}{Motion Primitives}{section.3}% 7
+\BOOKMARK [3][]{subsubsection.3.1.1}{Proposed Motion Primitive }{subsection.3.1}% 8
+\BOOKMARK [2][]{subsection.3.2}{Goal Based Learning from Demonstration}{section.3}% 9
+\BOOKMARK [3][]{subsubsection.3.2.1}{Proposed Expert Knowledge Base}{subsection.3.2}% 10
+\BOOKMARK [2][]{subsection.3.3}{Recommender system in Robotics}{section.3}% 11
+\BOOKMARK [1][]{section.4}{Learning Motion Primitive using Kinesthetic Demonstrations}{}% 12
+\BOOKMARK [2][]{subsection.4.1}{Features}{section.4}% 13
+\BOOKMARK [2][]{subsection.4.2}{Modelling Motion Primitive}{section.4}% 14
+\BOOKMARK [2][]{subsection.4.3}{Expert knowledge base}{section.4}% 15
+\BOOKMARK [3][]{subsubsection.4.3.1}{Effect Metrics}{subsection.4.3}% 16
+\BOOKMARK [2][]{subsection.4.4}{Selecting template from the knowledge base}{section.4}% 17
+\BOOKMARK [1][]{section.5}{Experiments and Evalutaion}{}% 18
+\BOOKMARK [2][]{subsection.5.1}{Experiment Setup}{section.5}% 19
+\BOOKMARK [3][]{subsubsection.5.1.1}{Steps to recording demonstrations}{subsection.5.1}% 20
+\BOOKMARK [2][]{subsection.5.2}{Experiments}{section.5}% 21
+\BOOKMARK [3][]{subsubsection.5.2.1}{RoboCup@Work}{subsection.5.2}% 22
+\BOOKMARK [3][]{subsubsection.5.2.2}{Motion primitives learnt }{subsection.5.2}% 23
+\BOOKMARK [2][]{subsection.5.3}{move Motion Primitive}{section.5}% 24
+\BOOKMARK [3][]{subsubsection.5.3.1}{move Knowledge base}{subsection.5.3}% 25
+\BOOKMARK [2][]{subsection.5.4}{Evaluation metrics}{section.5}% 26
+\BOOKMARK [2][]{subsection.5.5}{Results and Discussions}{section.5}% 27
+\BOOKMARK [3][]{subsubsection.5.5.1}{move base absolute pose}{subsection.5.5}% 28
+\BOOKMARK [3][]{subsubsection.5.5.2}{move base relative pose to object }{subsection.5.5}% 29
+\BOOKMARK [3][]{subsubsection.5.5.3}{move arm absolute pose}{subsection.5.5}% 30
+\BOOKMARK [3][]{subsubsection.5.5.4}{move arm relative pose to object}{subsection.5.5}% 31
+\BOOKMARK [3][]{subsubsection.5.5.5}{ndcg based evaluation}{subsection.5.5}% 32
+\BOOKMARK [2][]{subsection.5.6}{Discussions}{section.5}% 33
+\BOOKMARK [1][]{section.6}{Summary}{}% 34
+\BOOKMARK [1][]{section.7}{Limitations of work}{}% 35
+\BOOKMARK [1][]{section.8}{Future Work}{}% 36
+\BOOKMARK [1][]{appendix.1}{Use of Motion Primitive in Skill Based Framework}{}% 37
+\BOOKMARK [2][]{subsection.1.1}{Motion Primitives}{appendix.1}% 38
+\BOOKMARK [2][]{subsection.1.2}{Robotics Skills}{appendix.1}% 39
+\BOOKMARK [2][]{subsection.1.3}{High level Tasks}{appendix.1}% 40
+\BOOKMARK [1][]{appendix.2}{Knowledge base generator}{}% 41
+\BOOKMARK [1][]{appendix.3}{Use of Recommender system in robotics}{}% 42
+\BOOKMARK [2][]{subsection.3.1}{Preferences of users in Task Planing}{appendix.3}% 43
+\BOOKMARK [2][]{subsection.3.2}{Kernel Recommendation in SVM}{appendix.3}% 44
+\BOOKMARK [2][]{subsection.3.3}{Motion Path Planning algo in Planning }{appendix.3}% 45
+\BOOKMARK [1][]{appendix.4}{Softwares and tools}{}% 46

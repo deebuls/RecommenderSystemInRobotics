@@ -1,0 +1,229 @@
+\begin{thebibliography}{}
+
+\bibitem[Abdo et~al., 2013]{abdo_learning_2013}
+Abdo, N., Kretzschmar, H., Spinello, L., and Stachniss, C. (2013).
+\newblock Learning manipulation actions from a few demonstrations.
+\newblock In {\em Robotics and {Automation} ({ICRA}), 2013 {IEEE}
+  {International} {Conference} on}, pages 1268--1275. IEEE.
+
+\bibitem[Abdo et~al., 2014a]{abdo_inferring_2014}
+Abdo, N., Spinello, L., Burgard, W., and Stachniss, C. (2014a).
+\newblock Inferring {What} to {Imitate} in {Manipulation} {Actions} by {Using}
+  a {Recommender} {System}.
+\newblock In {\em {ICRA}}, volume~31, pages 189--206.
+  Springer\$\vphantom{\{}\}\$.
+
+\bibitem[Abdo et~al., 2014b]{abdo_collaborative_2014}
+Abdo, N., Spinello, L., Stachniss, C., and Burgard, W. (2014b).
+\newblock Collaborative {Filtering} for {Learning} {User} {Preferences} for
+  {Robotic} {Tasks}.
+
+\bibitem[Abdo et~al., 2015]{abdo_robot_2015}
+Abdo, N., Stachniss, C., Spinello, L., and Burgard, W. (2015).
+\newblock Robot, {Organize} my {Shelves}! {Tidying} up {Objects} by
+  {Predicting} {User} {Preferences}.
+
+\bibitem[Aein et~al., 2013]{aein_toward_2013}
+Aein, M.~J., Aksoy, E.~E., Tamosiunaite, M., Papon, J., Ude, A., and Worgotter,
+  F. (2013).
+\newblock Toward a library of manipulation actions based on semantic
+  object-action relations.
+\newblock In {\em Intelligent {Robots} and {Systems} ({IROS}), 2013
+  {IEEE}/{RSJ} {International} {Conference} on}, pages 4555--4562. IEEE.
+
+\bibitem[Alissandrakis et~al., 2006]{alissandrakis_action_2006}
+Alissandrakis, A., Nehaniv, C.~L., and Dautenhahn, K. (2006).
+\newblock Action, state and effect metrics for robot imitation.
+\newblock In {\em Robot and {Human} {Interactive} {Communication}, 2006.
+  {ROMAN} 2006. {The} 15th {IEEE} {International} {Symposium} on}, pages
+  232--237. IEEE.
+
+\bibitem[Alissandrakis et~al., 2005]{alissandrakis_approach_2005}
+Alissandrakis, A., Nehaniv, C.~L., Dautenhahn, K., and Saunders, J. (2005).
+\newblock An approach for programming robots by demonstration: {Generalization}
+  across different initial configurations of manipulated objects.
+\newblock In {\em Computational {Intelligence} in {Robotics} and {Automation},
+  2005. {CIRA} 2005. {Proceedings}. 2005 {IEEE} {International} {Symposium}
+  on}, pages 61--66. IEEE.
+
+\bibitem[Andersen et~al., 2014]{andersen_using_2014}
+Andersen, R.~S., Nalpantidis, L., Krüger, V., Madsen, O., and Moeslund, T.~B.
+  (2014).
+\newblock Using robot skills for flexible reprogramming of pick operations in
+  industrial scenarios.
+\newblock In {\em International {Joint} {Conference} on {Computer} {Vision},
+  {Imaging} and {Computer} {Graphics} {Theory} and {Applications}}, pages
+  678--685.
+
+\bibitem[Argall et~al., 2009]{argall_survey_2009}
+Argall, B.~D., Chernova, S., Veloso, M., and Browning, B. (2009).
+\newblock A survey of robot learning from demonstration.
+\newblock {\em Robotics and Autonomous Systems}, 57(5):469--483.
+
+\bibitem[Bishop, 2006]{bishop_pattern_2006}
+Bishop, C.~M. (2006).
+\newblock {\em Pattern recognition and machine learning}.
+\newblock Information science and statistics. Springer, New York.
+
+\bibitem[Bobadilla et~al., 2013]{bobadilla_recommender_2013}
+Bobadilla, J., Ortega, F., Hernando, A., and Gutiérrez, A. (2013).
+\newblock Recommender systems survey.
+\newblock {\em Knowledge-Based Systems}, 46:109--132.
+\newblock 92.
+
+\bibitem[Bogh et~al., 2012]{bogh_does_2012}
+Bogh, S., Nielsen, O.~S., Pedersen, M.~R., Krüger, V., and Madsen, O. (2012).
+\newblock Does your robot have skills?
+\newblock In {\em The 43rd {Intl}. {Symp}. on {Robotics} ({ISR}2012)}.
+
+\bibitem[Buxton, 2003]{buxton_learning_2003}
+Buxton, H. (2003).
+\newblock Learning and understanding dynamic scene activity: a review.
+\newblock {\em Image and vision computing}, 21(1):125--136.
+
+\bibitem[Calinon, 2009]{calinon_robot_2009}
+Calinon, S. (2009).
+\newblock {\em Robot programming by demonstration : a probabilistic approach}.
+\newblock EPFL Press Distributed by CRC Press, Lausanne, Switzerland Boca
+  Raton, FL.
+
+\bibitem[Csibra and Gergely, 2007]{csibra_obsessed_2007}
+Csibra, G. and Gergely, G. (2007).
+\newblock ‘obsessed with goals’: Functions and mechanisms of teleological
+  interpretation of actions in humans.
+\newblock {\em Acta psychologica}, 124(1):60--78.
+
+\bibitem[Demiris, 2007]{demiris_prediction_2007}
+Demiris, Y. (2007).
+\newblock Prediction of intent in robotics and multi-agent systems.
+\newblock {\em Cognitive Processing}, 8(3):151--158.
+
+\bibitem[Friedrich and Dillmann, 1995]{friedrich_robot_1995}
+Friedrich, H. and Dillmann, R. (1995).
+\newblock Robot programming based on a single demonstration and user
+  intentions.
+\newblock In {\em 3rd {European} workshop on learning robots at {ECML}},
+  volume~95.
+
+\bibitem[Friedrich et~al., 1996]{friedrich_robot_1996}
+Friedrich, H., Münch, S., Dillmann, R., Bocionek, S., and Sassin, M. (1996).
+\newblock Robot programming by demonstration ({RPD}): {Supporting} the
+  induction by human interaction.
+\newblock {\em Machine Learning}, 23(2-3):163--189.
+
+\bibitem[Hommel, 2009]{hommel_action_2009}
+Hommel, B. (2009).
+\newblock Action control according to {TEC} (theory of event coding).
+\newblock {\em Psychological Research Psychologische Forschung},
+  73(4):512--526.
+
+\bibitem[Isham, 1981]{isham_introduction_1981}
+Isham, V. (1981).
+\newblock An introduction to spatial point processes and markov random fields.
+\newblock {\em International Statistical Review/Revue Internationale de
+  Statistique}, pages 21--43.
+
+\bibitem[Jain et~al., 1998]{jain_deformable_1998}
+Jain, A.~K., Zhong, Y., and Dubuisson-Jolly, M.-P. (1998).
+\newblock Deformable template models: A review.
+\newblock {\em Signal processing}, 71(2):109--129.
+
+\bibitem[Kruger et~al., 2010]{kruger_learning_2010}
+Kruger, V., Herzog, D., Baby, S., Ude, A., and Kragic, D. (2010).
+\newblock Learning {Actions} from {Observations}.
+\newblock {\em IEEE Robotics \& Automation Magazine}, 17(2):30--43.
+
+\bibitem[Lee et~al., 2009]{lee_effective_2009}
+Lee, K.~H., Lee, J., Thomaz, A.~L., and Bobick, A.~F. (2009).
+\newblock Effective robot task learning by focusing on task-relevant objects.
+\newblock In {\em Intelligent {Robots} and {Systems}, 2009. {IROS} 2009.
+  {IEEE}/{RSJ} {International} {Conference} on}, pages 2551--2556. IEEE.
+
+\bibitem[Manning, 2008]{manning_introduction_2008}
+Manning, C. (2008).
+\newblock {\em Introduction to information retrieval}, chapter Evaluation in
+  information retrieval.
+\newblock Cambridge University Press, New York.
+
+\bibitem[Manschitz et~al., 2015]{manschitz_learning_2015}
+Manschitz, S., Kober, J., Gienger, M., and Peters, J. (2015).
+\newblock Learning movement primitive attractor goals and sequential skills
+  from kinesthetic demonstrations.
+\newblock {\em Robotics and Autonomous Systems}.
+
+\bibitem[Matikainen, 2012]{matikainen_model_2012}
+Matikainen, P. (2012).
+\newblock {\em Model {Recommendation} for {Action} {Recognition} and {Other}
+  {Applications}}.
+\newblock PhD thesis, Carnegie Mellon University, Pittsburgh, Pennsylvania
+  15213.
+
+\bibitem[Matikainen et~al., 2013]{matikainen_multi-armed_2013}
+Matikainen, P., Furlong, P.~M., Sukthankar, R., and Hebert, M. (2013).
+\newblock Multi-armed recommendation bandits for selecting state machine
+  policies for robotic systems.
+\newblock In {\em Robotics and {Automation} ({ICRA}), 2013 {IEEE}
+  {International} {Conference} on}, pages 4545--4551. IEEE.
+
+\bibitem[Muench et~al., 1994]{muench_robot_1994}
+Muench, S., Kreuziger, J., Kaiser, M., and Dillman, R. (1994).
+\newblock Robot programming by demonstration (rpd)-using machine learning and
+  user interaction methods for the development of easy and comfortable robot
+  programming systems.
+\newblock In {\em Proceedings of the {International} {Symposium} on
+  {Industrial} {Robots}}, volume~25, pages 685--685. INTERNATIONAL FEDERATION
+  OF ROBOTICS, \& ROBOTIC INDUSTRIES.
+
+\bibitem[Nicolescu and Mataric, 2003]{nicolescu_natural_2003}
+Nicolescu, M.~N. and Mataric, M.~J. (2003).
+\newblock Natural methods for robot task learning: {Instructive}
+  demonstrations, generalization and practice.
+\newblock In {\em Proceedings of the second international joint conference on
+  {Autonomous} agents and multiagent systems}, pages 241--248. ACM.
+
+\bibitem[Paraschos et~al., 2013]{paraschos_probabilistic_2013}
+Paraschos, A., Daniel, C., Peters, J., and Neumann, G. (2013).
+\newblock Probabilistic movement primitives.
+\newblock In {\em Advances in {Neural} {Information} {Processing} {Systems}},
+  pages 2616--2624.
+
+\bibitem[Pardowitz et~al., 2007]{pardowitz_incremental_2007}
+Pardowitz, M., Knoop, S., Dillmann, R., and Zollner, R.~D. (2007).
+\newblock Incremental {Learning} of {Tasks} {From} {User} {Demonstrations},
+  {Past} {Experiences}, and {Vocal} {Comments}.
+\newblock {\em IEEE Transactions on Systems, Man and Cybernetics, Part B
+  (Cybernetics)}, 37(2):322--332.
+
+\bibitem[Pedersen et~al., 2015]{pedersen_robot_2015}
+Pedersen, M.~R., Nalpantidis, L., Andersen, R.~S., Schou, C., Bøgh, S.,
+  Krüger, V., and Madsen, O. (2015).
+\newblock Robot skills for manufacturing: {From} concept to industrial
+  deployment.
+\newblock {\em Robotics and Computer-Integrated Manufacturing}.
+
+\bibitem[Schaal et~al., 2000]{schaal_nonlinear_2000}
+Schaal, S., Kotosaka, S., and Sternad, D. (2000).
+\newblock Nonlinear dynamical systems as movement primitives.
+\newblock In {\em {IEEE} {International} {Conference} on {Humanoid}
+  {Robotics}}, pages 1--11.
+
+\bibitem[Tomasello et~al., 2005]{tomasello_understanding_2005}
+Tomasello, M., Carpenter, M., Call, J., Behne, T., and Moll, H. (2005).
+\newblock Understanding and sharing intentions: The origins of cultural
+  cognition.
+\newblock {\em Behavioral and Brain Sciences}, 28:675--691.
+
+\bibitem[Ude, 1993]{ude_trajectory_1993}
+Ude, A. (1993).
+\newblock Trajectory generation from noisy positions of object features for
+  teaching robot paths.
+\newblock {\em Robotics and Autonomous Systems}, 11(2):113--127.
+
+\bibitem[Veeraraghavan and Veloso, 2008]{veeraraghavan_teaching_2008}
+Veeraraghavan, H. and Veloso, M. (2008).
+\newblock Teaching sequential tasks with repetition through demonstration.
+\newblock In {\em Proceedings of the 7th international joint conference on
+  {Autonomous} agents and multiagent systems-{Volume} 3}, pages 1357--1360.
+  International Foundation for Autonomous Agents and Multiagent Systems.
+
+\end{thebibliography}

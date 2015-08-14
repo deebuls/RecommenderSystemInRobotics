@@ -1,0 +1,56 @@
+% document definition 
+\documentclass[a4paper,11pt]{article} 
+
+% create the following file in the input from the template
+\input{PaperInformation}
+\input{Preamble}
+%\input{Macro}
+\makeglossaries
+\input{glossaries}
+\begin{document}
+\singlespacing
+\pagenumbering{roman}
+% create title template 
+\input{Title}
+\onehalfspacing
+\newpage
+% crate abstract template 
+\input{abstract}
+
+\newpage
+\tableofcontents
+\newpage
+\listoffigures
+ \newpage
+\listoftables
+
+\newpage
+ 
+\printglossary[type=\acronymtype, title=Acronyms]
+\clearpage
+\pagenumbering{arabic}
+% document content begin here
+\input{introduction}
+\newpage
+\input{ProblemStatement}
+\newpage
+\input{MotionPrimitives}
+\newpage
+\input{Content}
+\newpage
+\input{Experiment}
+\newpage
+\input{summary}
+\newpage
+\appendix
+\input{SkillFramework}
+\input{appendix}
+
+\newpage
+% create bibtex document
+\input{BibSetting}
+%\bibliography{BibTex.bib}{}
+%\bibliographystyle{plain}
+\end{document}
+
+

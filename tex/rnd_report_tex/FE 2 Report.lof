@@ -1,0 +1,25 @@
+\contentsline {figure}{\numberline {1}{\ignorespaces Deriving a policy : goal based}}{3}{figure.caption.5}
+\contentsline {figure}{\numberline {2}{\ignorespaces Deriving a policy : feature based }}{4}{figure.caption.6}
+\contentsline {figure}{\numberline {3}{\ignorespaces General structure of a motion primitive}}{6}{figure.caption.7}
+\contentsline {figure}{\numberline {4}{\ignorespaces Model of motion primitive\relax }}{10}{figure.caption.8}
+\contentsline {figure}{\numberline {5}{\ignorespaces Bivariate distribution of features}}{11}{figure.caption.9}
+\contentsline {figure}{\numberline {6}{\ignorespaces Feature space venn diagram}}{12}{figure.caption.10}
+\contentsline {figure}{\numberline {7}{\ignorespaces Position effect metrics}}{13}{figure.caption.11}
+\contentsline {figure}{\numberline {8}{\ignorespaces Orientation effect metrics}}{14}{figure.caption.12}
+\contentsline {figure}{\numberline {9}{\ignorespaces Effect metrics in imitation}}{15}{figure.caption.13}
+\contentsline {figure}{\numberline {10}{\ignorespaces Box plot of features}}{16}{figure.caption.14}
+\contentsline {figure}{\numberline {11}{\ignorespaces Gazebo simulator and robocup@work workspace with KUKA youBot\relax }}{18}{figure.caption.15}
+\contentsline {figure}{\numberline {12}{\ignorespaces KUKA youBot kinesthetic teaching}}{19}{figure.caption.16}
+\contentsline {figure}{\numberline {13}{\ignorespaces Recording demonstrations}}{19}{figure.caption.17}
+\contentsline {figure}{\numberline {14}{\ignorespaces 'Pick up' skill}}{21}{figure.caption.19}
+\contentsline {figure}{\numberline {15}{\ignorespaces Demonstrations to teach the youBot to move base to an absolute location}}{24}{figure.caption.21}
+\contentsline {figure}{\numberline {16}{\ignorespaces Result : \textit {move} base absolute pose}}{24}{figure.caption.22}
+\contentsline {figure}{\numberline {17}{\ignorespaces Demonstrations to teach the robot to move base to a relative location}}{25}{figure.caption.23}
+\contentsline {figure}{\numberline {18}{\ignorespaces Result : \textit {move} base relative pose to object }}{26}{figure.caption.24}
+\contentsline {figure}{\numberline {19}{\ignorespaces Demonstrations to teach the robot to move arm to an absolute location }}{27}{figure.caption.25}
+\contentsline {figure}{\numberline {20}{\ignorespaces Result : \textit {move} arm absolute pose}}{28}{figure.caption.26}
+\contentsline {figure}{\numberline {21}{\ignorespaces Result : \textit {move} arm relative pose to object}}{29}{figure.caption.27}
+\contentsline {figure}{\numberline {22}{\ignorespaces nDCG@1 score based comparison}}{30}{figure.caption.28}
+\contentsline {figure}{\numberline {23}{\ignorespaces nDCG@3 score based comparison}}{31}{figure.caption.29}
+\contentsline {figure}{\numberline {24}{\ignorespaces Skill based framework}}{36}{figure.caption.30}
+\contentsline {figure}{\numberline {25}{\ignorespaces Tool for generating knowledge base}}{37}{figure.caption.31}

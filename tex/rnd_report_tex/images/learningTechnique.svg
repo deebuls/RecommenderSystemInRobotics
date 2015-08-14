@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="New document 1">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lend"
+       style="overflow:visible;">
+      <path
+         id="path3800"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <linearGradient
+       id="linearGradient3763"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#00c8e8;stop-opacity:1;"
+         offset="0"
+         id="stop3765" />
+    </linearGradient>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-4"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3800-8"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker4431"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4433"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-0"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3800-83"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-05"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3800-9"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker4530"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4532"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker4534"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4536"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker4538"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4540"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker4542"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4544"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-7"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3800-5"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.53935739"
+     inkscape:cx="142.10614"
+     inkscape:cy="746.86727"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:window-width="1366"
+     inkscape:window-height="744"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3787" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch"
+       x="286.84192"
+       y="407.26639"
+       id="text4478"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan4480"
+         x="286.84192"
+         y="407.26639" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch"
+       x="900"
+       y="326.36218"
+       id="text4504-3"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         x="900"
+         y="326.36218"
+         id="tspan4676" /></text>
+    <rect
+       style="opacity:0.76954735;fill:none;stroke:#000000;stroke-width:2;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect2985-4"
+       width="159.45836"
+       height="72.796211"
+       x="369.10449"
+       y="294.26334"
+       inkscape:export-filename="/data/dataDeebul/rnd/RecommenderSystemInRobotics/tex/rnd_report_tex/images/features_plans_policy_derivation.png"
+       inkscape:export-xdpi="324.42661"
+       inkscape:export-ydpi="324.42661" />
+    <rect
+       style="opacity:0.76954735;fill:none;stroke:#000000;stroke-width:2;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect2985-3-6"
+       width="159.45836"
+       height="72.796211"
+       x="648.06952"
+       y="294.26334"
+       inkscape:export-filename="/data/dataDeebul/rnd/RecommenderSystemInRobotics/tex/rnd_report_tex/images/features_plans_policy_derivation.png"
+       inkscape:export-xdpi="324.42661"
+       inkscape:export-ydpi="324.42661" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.15470052px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="m 10,322.36218 120,0"
+       id="path3789-0"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/data/dataDeebul/rnd/RecommenderSystemInRobotics/tex/rnd_report_tex/images/features_plans_policy_derivation.png"
+       inkscape:export-xdpi="324.42661"
+       inkscape:export-ydpi="324.42661" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.15470052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:3.46410155, 3.46410155;stroke-dashoffset:0;marker-end:url(#Arrow1Lend)"
+       d="m 10,352.36218 120,0"
+       id="path3791-6"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/data/dataDeebul/rnd/RecommenderSystemInRobotics/tex/rnd_report_tex/images/features_plans_policy_derivation.png"
+       inkscape:export-xdpi="324.42661"
+       inkscape:export-ydpi="324.42661" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.15470052px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="m 528,316.36218 120,0"
+       id="path3789-9-5"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/data/dataDeebul/rnd/RecommenderSystemInRobotics/tex/rnd_report_tex/images/features_plans_policy_derivation.png"
+       inkscape:export-xdpi="324.42661"
+       inkscape:export-ydpi="324.42661" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.15470052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:6.92820311, 2.30940104;stroke-dashoffset:0;marker-end:url(#Arrow1Lend)"
+       d="m 528,346.36218 120,0"
+       id="path3791-1-8"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/data/dataDeebul/rnd/RecommenderSystemInRobotics/tex/rnd_report_tex/images/features_plans_policy_derivation.png"
+       inkscape:export-xdpi="324.42661"
+       inkscape:export-ydpi="324.42661" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.15470052px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="m 809,332.36218 120,0"
+       id="path3791-1-1-3"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/data/dataDeebul/rnd/RecommenderSystemInRobotics/tex/rnd_report_tex/images/features_plans_policy_derivation.png"
+       inkscape:export-xdpi="324.42661"
+       inkscape:export-ydpi="324.42661" />
+    <text
+       xml:space="preserve"
+       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch"
+       x="60"
+       y="316.36218"
+       id="text4482-8"
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="/data/dataDeebul/rnd/RecommenderSystemInRobotics/tex/rnd_report_tex/images/features_plans_policy_derivation.png"
+       inkscape:export-xdpi="324.42661"
+       inkscape:export-ydpi="324.42661"><tspan
+         sodipodi:role="line"
+         id="tspan4484-6"
+         x="60"
+         y="316.36218">D=[(z<tspan
+   style="font-size:65.00091553%;baseline-shift:super"
+   id="tspan4688">i</tspan>,a<tspan
+   style="font-size:65.00091553%;baseline-shift:super"
+   id="tspan4690">i</tspan>)]</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch"
+       x="60"
+       y="348.36218"
+       id="text4486-3"
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="/data/dataDeebul/rnd/RecommenderSystemInRobotics/tex/rnd_report_tex/images/features_plans_policy_derivation.png"
+       inkscape:export-xdpi="324.42661"
+       inkscape:export-ydpi="324.42661"><tspan
+         sodipodi:role="line"
+         id="tspan4488-4"
+         x="60"
+         y="348.36218">user intentions</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch"
+       x="448.92874"
+       y="324.55185"
+       id="text4490-3"
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="/data/dataDeebul/rnd/RecommenderSystemInRobotics/tex/rnd_report_tex/images/features_plans_policy_derivation.png"
+       inkscape:export-xdpi="324.42661"
+       inkscape:export-ydpi="324.42661"><tspan
+         sodipodi:role="line"
+         id="tspan4492-5"
+         x="448.92874"
+         y="324.55185">Learning</tspan><tspan
+         sodipodi:role="line"
+         x="448.92874"
+         y="342.55185"
+         id="tspan4494-9">Technique</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch"
+       x="727.82178"
+       y="334.72443"
+       id="text4496-3"
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="/data/dataDeebul/rnd/RecommenderSystemInRobotics/tex/rnd_report_tex/images/features_plans_policy_derivation.png"
+       inkscape:export-xdpi="324.42661"
+       inkscape:export-ydpi="324.42661"><tspan
+         sodipodi:role="line"
+         id="tspan4498-2"
+         x="727.82178"
+         y="334.72443">Planner</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch"
+       x="588"
+       y="306.36218"
+       id="text4500-5"
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="/data/dataDeebul/rnd/RecommenderSystemInRobotics/tex/rnd_report_tex/images/features_plans_policy_derivation.png"
+       inkscape:export-xdpi="324.42661"
+       inkscape:export-ydpi="324.42661"><tspan
+         sodipodi:role="line"
+         id="tspan4502-8"
+         x="588"
+         y="306.36218">L[(preC,postC)|a]</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch"
+       x="584.59302"
+       y="340.51135"
+       id="text4514-7"
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="/data/dataDeebul/rnd/RecommenderSystemInRobotics/tex/rnd_report_tex/images/features_plans_policy_derivation.png"
+       inkscape:export-xdpi="324.42661"
+       inkscape:export-ydpi="324.42661"><tspan
+         sodipodi:role="line"
+         id="tspan4516-2"
+         x="584.59302"
+         y="340.51135">T(s<tspan
+   style="font-size:65.00091553%;baseline-shift:super"
+   id="tspan4692">i</tspan>|s,a)</tspan></text>
+    <rect
+       style="opacity:0.76954735;fill:none;stroke:#000000;stroke-width:2;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect2985-3-6-8"
+       width="159.45836"
+       height="72.796211"
+       x="130.24774"
+       y="293.90109"
+       inkscape:export-filename="/data/dataDeebul/rnd/RecommenderSystemInRobotics/tex/rnd_report_tex/images/features_plans_policy_derivation.png"
+       inkscape:export-xdpi="324.42661"
+       inkscape:export-ydpi="324.42661" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.90567207px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="m 291.17822,329.99994 73.82178,0"
+       id="path3791-1-1-3-4"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/data/dataDeebul/rnd/RecommenderSystemInRobotics/tex/rnd_report_tex/images/features_plans_policy_derivation.png"
+       inkscape:export-xdpi="324.42661"
+       inkscape:export-ydpi="324.42661" />
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch"
+       x="210.09898"
+       y="326.51019"
+       id="text4496-3-4"
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="/data/dataDeebul/rnd/RecommenderSystemInRobotics/tex/rnd_report_tex/images/features_plans_policy_derivation.png"
+       inkscape:export-xdpi="324.42661"
+       inkscape:export-ydpi="324.42661"><tspan
+         sodipodi:role="line"
+         id="tspan4498-2-2"
+         x="210.09898"
+         y="326.51019">Feature</tspan><tspan
+         sodipodi:role="line"
+         x="210.09898"
+         y="344.51019"
+         id="tspan4680">Extractor</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch"
+       x="324.17822"
+       y="323.99994"
+       id="text4504-3-3"
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="/data/dataDeebul/rnd/RecommenderSystemInRobotics/tex/rnd_report_tex/images/features_plans_policy_derivation.png"
+       inkscape:export-xdpi="324.42661"
+       inkscape:export-ydpi="324.42661"><tspan
+         sodipodi:role="line"
+         id="tspan4506-6-0"
+         x="324.17822"
+         y="323.99994">r<tspan
+   style="font-size:65.00091553%;baseline-shift:super"
+   id="tspan4686">i</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch"
+       x="864"
+       y="326.36218"
+       id="text4504-0"
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="/data/dataDeebul/rnd/RecommenderSystemInRobotics/tex/rnd_report_tex/images/features_plans_policy_derivation.png"
+       inkscape:export-xdpi="324.42661"
+       inkscape:export-ydpi="324.42661"><tspan
+         sodipodi:role="line"
+         id="tspan4506-0"
+         x="864"
+         y="326.36218">      π:Z-&gt;A</tspan></text>
+    <rect
+       style="opacity:0.76954735;fill:none;stroke:#000000;stroke-width:2;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect2985"
+       width="159.45836"
+       height="72.796211"
+       x="131.10449"
+       y="86.263344"
+       inkscape:export-filename="/data/dataDeebul/rnd/RecommenderSystemInRobotics/tex/rnd_report_tex/images/plans_policy_derivation.png"
+       inkscape:export-xdpi="324.42661"
+       inkscape:export-ydpi="324.42661" />
+    <rect
+       style="opacity:0.76954735;fill:none;stroke:#000000;stroke-width:2;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect2985-3"
+       width="159.45836"
+       height="72.796211"
+       x="410.06952"
+       y="86.263344"
+       inkscape:export-filename="/data/dataDeebul/rnd/RecommenderSystemInRobotics/tex/rnd_report_tex/images/plans_policy_derivation.png"
+       inkscape:export-xdpi="324.42661"
+       inkscape:export-ydpi="324.42661" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.15470052px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="m 10,106.36218 120,0"
+       id="path3789"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/data/dataDeebul/rnd/RecommenderSystemInRobotics/tex/rnd_report_tex/images/plans_policy_derivation.png"
+       inkscape:export-xdpi="324.42661"
+       inkscape:export-ydpi="324.42661" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.15470052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:3.46410155, 3.46410155;stroke-dashoffset:0;marker-end:url(#Arrow1Lend)"
+       d="m 10,136.36218 120,0"
+       id="path3791"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/data/dataDeebul/rnd/RecommenderSystemInRobotics/tex/rnd_report_tex/images/plans_policy_derivation.png"
+       inkscape:export-xdpi="324.42661"
+       inkscape:export-ydpi="324.42661" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.15470052px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="m 290,106.36218 120,0"
+       id="path3789-9"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/data/dataDeebul/rnd/RecommenderSystemInRobotics/tex/rnd_report_tex/images/plans_policy_derivation.png"
+       inkscape:export-xdpi="324.42661"
+       inkscape:export-ydpi="324.42661" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.15470052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:6.92820311, 2.30940104;stroke-dashoffset:0;marker-end:url(#Arrow1Lend)"
+       d="m 290,136.36218 120,0"
+       id="path3791-1"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/data/dataDeebul/rnd/RecommenderSystemInRobotics/tex/rnd_report_tex/images/plans_policy_derivation.png"
+       inkscape:export-xdpi="324.42661"
+       inkscape:export-ydpi="324.42661" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.15470052px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="m 571,122.36218 120,0"
+       id="path3791-1-1"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/data/dataDeebul/rnd/RecommenderSystemInRobotics/tex/rnd_report_tex/images/plans_policy_derivation.png"
+       inkscape:export-xdpi="324.42661"
+       inkscape:export-ydpi="324.42661" />
+    <text
+       xml:space="preserve"
+       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch"
+       x="60"
+       y="126.36218"
+       id="text4486"
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="/data/dataDeebul/rnd/RecommenderSystemInRobotics/tex/rnd_report_tex/images/plans_policy_derivation.png"
+       inkscape:export-xdpi="324.42661"
+       inkscape:export-ydpi="324.42661"><tspan
+         sodipodi:role="line"
+         id="tspan4488"
+         x="60"
+         y="126.36218">user intentions</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch"
+       x="210.92874"
+       y="114.55185"
+       id="text4490"
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="/data/dataDeebul/rnd/RecommenderSystemInRobotics/tex/rnd_report_tex/images/plans_policy_derivation.png"
+       inkscape:export-xdpi="324.42661"
+       inkscape:export-ydpi="324.42661"><tspan
+         sodipodi:role="line"
+         id="tspan4492"
+         x="210.92874"
+         y="114.55185">Learning</tspan><tspan
+         sodipodi:role="line"
+         x="210.92874"
+         y="132.55185"
+         id="tspan4494">Technique</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch"
+       x="489.82175"
+       y="124.72443"
+       id="text4496"
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="/data/dataDeebul/rnd/RecommenderSystemInRobotics/tex/rnd_report_tex/images/plans_policy_derivation.png"
+       inkscape:export-xdpi="324.42661"
+       inkscape:export-ydpi="324.42661"><tspan
+         sodipodi:role="line"
+         id="tspan4498"
+         x="489.82175"
+         y="124.72443">Planner</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch"
+       x="350"
+       y="96.362183"
+       id="text4500"
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="/data/dataDeebul/rnd/RecommenderSystemInRobotics/tex/rnd_report_tex/images/plans_policy_derivation.png"
+       inkscape:export-xdpi="324.42661"
+       inkscape:export-ydpi="324.42661"><tspan
+         sodipodi:role="line"
+         id="tspan4502"
+         x="350"
+         y="96.362183">L[(preC,postC)|a]</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch"
+       x="620"
+       y="116.36218"
+       id="text4504"
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="/data/dataDeebul/rnd/RecommenderSystemInRobotics/tex/rnd_report_tex/images/plans_policy_derivation.png"
+       inkscape:export-xdpi="324.42661"
+       inkscape:export-ydpi="324.42661"><tspan
+         sodipodi:role="line"
+         id="tspan4506"
+         x="620"
+         y="116.36218">      π:Z-&gt;A</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch"
+       x="60"
+       y="96.362183"
+       id="text4482-8-3"
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="/data/dataDeebul/rnd/RecommenderSystemInRobotics/tex/rnd_report_tex/images/plans_policy_derivation.png"
+       inkscape:export-xdpi="324.42661"
+       inkscape:export-ydpi="324.42661"><tspan
+         sodipodi:role="line"
+         id="tspan4484-6-0"
+         x="60"
+         y="96.362183">D=[(z<tspan
+   style="font-size:65.00091553%;baseline-shift:super"
+   id="tspan4688-4">i</tspan>,a<tspan
+   style="font-size:65.00091553%;baseline-shift:super"
+   id="tspan4690-1">i</tspan>)]</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch"
+       x="346.59305"
+       y="130.51135"
+       id="text4514-7-1"
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="/data/dataDeebul/rnd/RecommenderSystemInRobotics/tex/rnd_report_tex/images/plans_policy_derivation.png"
+       inkscape:export-xdpi="324.42661"
+       inkscape:export-ydpi="324.42661"><tspan
+         sodipodi:role="line"
+         id="tspan4516-2-8"
+         x="346.59305"
+         y="130.51135">T(s<tspan
+   style="font-size:65.00091553%;baseline-shift:super"
+   id="tspan4692-9">i</tspan>|s,a)</tspan></text>
+  </g>
+</svg>

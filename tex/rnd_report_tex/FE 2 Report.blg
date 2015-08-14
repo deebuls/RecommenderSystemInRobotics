@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2012/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: FE 2 Report.aux
+The style file: apalike.bst
+Database file #1: BibTex.bib
+Warning--empty journal in abdo_collaborative_2014
+Warning--empty journal in abdo_robot_2015
+You've used 36 entries,
+            1935 wiz_defined-function locations,
+            685 strings with 11596 characters,
+and the built_in function-call counts, 16696 in all, are:
+= -- 1682
+> -- 679
+< -- 31
++ -- 239
+- -- 232
+* -- 1348
+:= -- 2749
+add.period$ -- 118
+call.type$ -- 36
+change.case$ -- 292
+chr.to.int$ -- 35
+cite$ -- 38
+duplicate$ -- 690
+empty$ -- 1171
+format.name$ -- 276
+if$ -- 3403
+int.to.chr$ -- 2
+int.to.str$ -- 0
+missing$ -- 38
+newline$ -- 182
+num.names$ -- 108
+pop$ -- 315
+preamble$ -- 1
+purify$ -- 296
+quote$ -- 0
+skip$ -- 528
+stack$ -- 0
+substring$ -- 1193
+swap$ -- 168
+text.length$ -- 18
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 210
+warning$ -- 2
+while$ -- 138
+width$ -- 0
+write$ -- 478
+(There were 2 warnings)

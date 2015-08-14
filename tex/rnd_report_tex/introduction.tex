@@ -1,0 +1,77 @@
+\section{Introduction} 
+\acrfull{lfd} is a technique of learning new skills based on
+demonstrations by a teacher\cite{argall_survey_2009}. In 2013, robot sales
+increased by 12 \% to 178,132 units, by far the highest level ever recorded for
+one year. Sales of industrial robots to the automotive, the chemical, and the
+rubber and plastics industries, as well as to the food industry continued to
+increase in 2013. Between 2008 and 2013 the average robot sales increase was at
+9.5\% compounded annual growth rate per year
+\footnote{\url{http://www.ifr.org/uploads/media/Executive_Summary_WR_2014_02.pdf
+}}. With the increasing number of robots being deployed in the industries the
+amount of efforts to program the robots is also increasing. It is a major
+requirement to program the robots with new tasks even by persons who are non
+experts in robotics. \acrshort{lfd} comes as an appropriate solution to this problem, in
+which a non expert can demonstrate the expected skill to the robot and the
+robot can learn from it.
+
+
+In our work we work on the problem of inferring the relevant aspects of the
+demonstration for a successful reproduction of a motion primitive. A motion
+primitive is defined as a single elementary movement
+\cite{schaal_nonlinear_2000}. Motion primitive forms the building blocks for
+the robotic skills, which in turn forms building blocks of robotic tasks. For
+example we want the robot to do a task \textit{"Get milk bottle from the
+refrigerator."}. This task can be broken down into various robotic skills
+\textit{moveto(refrigerator) + open(refrigerator) + pickup(milk bottle) +
+close(refrigerator) + moveto(table)}. Each of the robotic skills can be
+composed of several atomic movements i.e. motion primitives . So the skill of
+\textit{pickup} can be composed of \textit{$move\_arm$(milk bottle) + grasp(milk
+bottle) + $move\_arm$(tray) + release(milk bottle)} motion primitives. Thus each
+task of the robot can be broken down to the level of atomic actions of the
+motion primitives. The motion primitives are executed in a sequence to achieve
+the higher goals.
+
+Motion primitives in robotics is a highly researched topic. There are various
+representation of motion primitives available in the literature. In our
+approach we propose a feature based representation for the motion primitive. A
+feature is a quantitative element of the world the robot can measure. In our
+approach we identify the relevant features that completely describe a motion
+primitive. The general approach taken in machine learning for the problem is to
+create a large training dataset and use feature selection algorithms to
+determine the relevant features. But this approach cannot be used in \acrshort{lfd} since
+the demonstrations which are the training dataset, are sparse.
+
+
+In \cite{abdo_inferring_2014} came up with a novel idea for determining
+relevant features using few demonstrations by taking inspirations from
+recommender systems . They build an off-line expert knowledge base using
+experts, which is similar to the user preferences created by recommender
+system. Now the expert knowledge base is used to make a recommendations on the
+relevant features of the motion primitive.
+
+
+Our work advances the approach of \cite{abdo_inferring_2014}, such that the
+knowledge base created is more structured using effect metrics. Effect metrics
+are a means of measuring changes which have occurred in the robot, environment
+and interactions of robot-environment due to an action.  The knowledge base is
+collected off-line and before any demonstrations. When a new motion primitive
+is learned, the demonstrations are shown by an user. The robot, based on the
+data available from demonstrations and the off-line knowledge base makes
+recommendations on what are the relevant features for the motion primitive.
+
+
+\subsection{Why not the term "recommender system" ?}
+The work should be ideally named as "Learning by Demonstration, recommendation
+using Expert knowledge base". The name "recommender system" is an established
+term in literature. Recommender systems are a subclass of information filtering
+systems that seek to predict the 'rating' or 'preference' that a user would
+give to an item \cite{bobadilla_recommender_2013}. The prediction of the
+preference is done based on a knowledge base generated using the user data.
+This knowledge base generation is always an online process. But in our work we
+try to create the knowledge base off-line that is based on expert knowledge.
+Also in our case the system recommends set of features that could be used to
+explain a demonstrated motion primitive by doing a greedy search on all the
+templates available in the knowledge base. This is not the case in recommender
+systems. So even though in principle the idea of both the systems are same, we
+would like to refrain from using the term recommender system and rather use a
+more generic term "recommendations using knowledge base".

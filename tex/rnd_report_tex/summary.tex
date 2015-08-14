@@ -1,0 +1,100 @@
+\section{Summary} 
+In this work we presented relevant feature selection based on
+a knowledge base recommendation. The proposed approach was an 
+extension to the framework proposed by \cite{abdo_inferring_2014}.
+
+We have proposed a possible framework for representing a motion primitive 
+in a skill based framework by \cite{pedersen_robot_2015} . 
+
+
+Our results show that robot trained using our recommendations not only learns
+the goal on demonstrated Motion primitives, but also generalizes well to do
+Motion Primitives from initial configurations not demonstrated before.
+
+Our application scenarios of learning goal from demonstrations goes beyond the
+application scenarios that previous work has considered.
+
+\newpage
+\section{Limitations of work}
+
+This section lists some of the major limitations of the approach.
+\begin{itemize}
+    \item \textit{Poor quality of demonstration} \\
+As \acrshort{lfd} systems are totally dependent on the demonstration of the data, its 
+quality greatly reflects on the results. Poor quality of demonstration will lead to 
+very poor results. For example in our approach its very much necessary that there has 
+to be significant ddifference in the features which are not to be learned. So the 
+demonstrations has to vary for all the features not being learned. So great care has to 
+be taken by the user to teach a correct set of demonstration.
+
+    \item \textit{Lack of element for feedback} \\
+The proposed approach there is not provisions for providing feedback to the robot after
+the learning. This is major limitation in terms of learning. Feedback are a good way for 
+the robot to generalize on new situations.
+
+    \item \textit{Lack of continuous learning} \\
+The proposed approach the learning is done in a single shot. There is no provision for 
+feedback and continuos learning. A scalable approach would be if there are provisions 
+for the robot to continuos learn while executing. Such provisions will ensure that the 
+robot is continuously learning and improving its decision making.
+
+
+\newpage
+
+\end{itemize}
+\section{Future Work}
+This section proposes areas that can be improved or extended for future works 
+in the field
+
+\begin{itemize}
+    \item \textit{Learning "When to imitate" } \\
+        The current work only focussed on the "what to imitate" part for identifying
+the relevant aspects of the demonstrations. "When to imitate" is a section of 
+\acrshort{lfd} to determine when the demonstrated action should be executed.
+The proposed approach can be used to identifying the start conditions (pre-condition)
+by identifying the relevant aspects in the start values of the demonstrations.
+
+    \item \textit{Better evaluation strategies} \\
+        The current evaluation method is manual and are subject ot faults. Automated
+methods for evaluting the results need to be used for better confidence on the results.
+
+    \item \textit{Combining both entropy and conditional entropy } \\
+The current results showed that entorpy based relevance performed better while
+conditional entorpy didnt perform better for all the cases. But conditional entropy 
+performed better  in some cases. This needs to be further investigated why the 
+conditional entropy didnt perform better in some experiments and how we can modify 
+the approach to use it for getting better results.
+
+    \item \textit{Creating a complete skill based on the proposed motion primitive framework}\\
+A motion primitive framework is proposed in this work. The relevant features were also 
+learnt. Now the work has to be extended to use the relevant feature and execute a particular
+motion primitive successfully. Also a set of motion primitives has to be learnt and 
+a complete skill has to be executed.
+
+    \item \textit{Better \acrfull{hmi}} \\
+The current methods of recording the demonstrations are not sutiable for outside lab.
+Since one of the big benefits of \acrshort{lfd} is that non-experts would be able to 
+teach the robot with new skills, its of high importance to work on better more intuitive 
+\acrshort{hmi} needs to be developed.
+
+    \item \textit{Learning of the templates on-line} \\
+The templates used in the approach is generated manually using experts of manipulation.
+But in future these futures has to be learnt on-line. The base templates can be used 
+from the off-line process but these needs to be updated online based on the demonstrations.
+For example for a motion primitive representing the distance between tool-tip and object template will 
+be recommended, also if joint 4 is showing relevance as in all the demonstrations joint 4 
+was show in a particular angle, then it should be added on-line to the 
+template list.
+
+    \item \textit{Completenes of the approach} \\
+The results of the approach shows positive signs of the usefullness of the approach.
+But we need to have a critical look at the completeness of the solution i.e. can the
+approach be generalized for learning all the motion primitives required for a general 
+robot. Works like \cite{bogh_does_2012} have claimed that for all the task in an 
+industrial setup, a limited list of skills is sufficient. The completeness of our 
+approach needs to be verified.
+
+\end{itemize}
+
+
+
