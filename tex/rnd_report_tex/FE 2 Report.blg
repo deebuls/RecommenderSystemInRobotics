@@ -5,45 +5,45 @@ The style file: apalike.bst
 Database file #1: BibTex.bib
 Warning--empty journal in abdo_collaborative_2014
 Warning--empty journal in abdo_robot_2015
-You've used 36 entries,
+You've used 37 entries,
             1935 wiz_defined-function locations,
-            685 strings with 11596 characters,
-and the built_in function-call counts, 16696 in all, are:
-= -- 1682
-> -- 679
-< -- 31
-+ -- 239
-- -- 232
-* -- 1348
-:= -- 2749
-add.period$ -- 118
-call.type$ -- 36
-change.case$ -- 292
-chr.to.int$ -- 35
-cite$ -- 38
-duplicate$ -- 690
-empty$ -- 1171
-format.name$ -- 276
-if$ -- 3403
+            689 strings with 11770 characters,
+and the built_in function-call counts, 17274 in all, are:
+= -- 1741
+> -- 702
+< -- 32
++ -- 247
+- -- 240
+* -- 1391
+:= -- 2836
+add.period$ -- 121
+call.type$ -- 37
+change.case$ -- 301
+chr.to.int$ -- 36
+cite$ -- 39
+duplicate$ -- 717
+empty$ -- 1213
+format.name$ -- 285
+if$ -- 3528
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 38
-newline$ -- 182
-num.names$ -- 108
-pop$ -- 315
+missing$ -- 39
+newline$ -- 187
+num.names$ -- 111
+pop$ -- 328
 preamble$ -- 1
-purify$ -- 296
+purify$ -- 305
 quote$ -- 0
-skip$ -- 528
+skip$ -- 549
 stack$ -- 0
-substring$ -- 1193
-swap$ -- 168
-text.length$ -- 18
+substring$ -- 1237
+swap$ -- 178
+text.length$ -- 19
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 210
+type$ -- 216
 warning$ -- 2
-while$ -- 138
+while$ -- 143
 width$ -- 0
-write$ -- 478
+write$ -- 491
 (There were 2 warnings)

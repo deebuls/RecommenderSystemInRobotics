@@ -39,8 +39,9 @@
 \contentsline {subsection}{\numberline {A.2}Robotics Skills}{36}{subsection.1.2}
 \contentsline {subsection}{\numberline {A.3}High level Tasks}{36}{subsection.1.3}
 \contentsline {section}{\numberline {B}Knowledge base generator}{37}{appendix.2}
-\contentsline {section}{\numberline {C}Use of Recommender system in robotics}{37}{appendix.3}
-\contentsline {subsection}{\numberline {C.1}Preferences of users in Task Planing}{37}{subsection.3.1}
-\contentsline {subsection}{\numberline {C.2}Kernel Recommendation in SVM}{37}{subsection.3.2}
-\contentsline {subsection}{\numberline {C.3}Motion Path Planning algo in Planning }{38}{subsection.3.3}
-\contentsline {section}{\numberline {D}Softwares and tools}{38}{appendix.4}
+\contentsline {section}{\numberline {C}Use of Recommender system in robotics}{38}{appendix.3}
+\contentsline {subsection}{\numberline {C.1}Preferences of users in Task Planing}{38}{subsection.3.1}
+\contentsline {subsection}{\numberline {C.2}Kernel Recommendation in learning algorithms}{38}{subsection.3.2}
+\contentsline {subsection}{\numberline {C.3}Motion Path Planning algorithms }{39}{subsection.3.3}
+\contentsline {subsection}{\numberline {C.4}Learning trajectory preference of users}{39}{subsection.3.4}
+\contentsline {section}{\numberline {D}Softwares and tools}{40}{appendix.4}

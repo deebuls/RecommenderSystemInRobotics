@@ -41,6 +41,7 @@
 \BOOKMARK [1][]{appendix.2}{Knowledge base generator}{}% 41
 \BOOKMARK [1][]{appendix.3}{Use of Recommender system in robotics}{}% 42
 \BOOKMARK [2][]{subsection.3.1}{Preferences of users in Task Planing}{appendix.3}% 43
-\BOOKMARK [2][]{subsection.3.2}{Kernel Recommendation in SVM}{appendix.3}% 44
-\BOOKMARK [2][]{subsection.3.3}{Motion Path Planning algo in Planning }{appendix.3}% 45
-\BOOKMARK [1][]{appendix.4}{Softwares and tools}{}% 46
+\BOOKMARK [2][]{subsection.3.2}{Kernel Recommendation in learning algorithms}{appendix.3}% 44
+\BOOKMARK [2][]{subsection.3.3}{Motion Path Planning algorithms }{appendix.3}% 45
+\BOOKMARK [2][]{subsection.3.4}{Learning trajectory preference of users}{appendix.3}% 46
+\BOOKMARK [1][]{appendix.4}{Softwares and tools}{}% 47

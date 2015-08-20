@@ -8,18 +8,34 @@
 		\setentrycounter[]{page}\glsnumberformat{34}}}%
 \glossaryentryfield{hmm}{\glsnamefont{HMM}}{Hidden Markov Model}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{5}}}\glsgroupskip
+\glsgroupheading{K}\relax \glsresetentrylist %
+\glossaryentryfield{kpiece}{\glsnamefont{KPIECE}}{Kinodynamic Planning by Interior-Exterior Cell Exploration}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{39}}}\glsgroupskip
 \glsgroupheading{L}\relax \glsresetentrylist %
 \glossaryentryfield{lfd}{\glsnamefont{LfD}}{Learning from Demonstration}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{1}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{3}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{5\delimN 6}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{22}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{33\delimN 34}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{33\delimN 34}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{37}}}\glsgroupskip
 \glsgroupheading{N}\relax \glsresetentrylist %
-\glossaryentryfield{ndcg}{\glsnamefont{nDCG}}{normalized discounted cumulative gain}{\relax }{\glossaryentrynumbers{\relax 
+\glossaryentryfield{ndcg}{\glsnamefont{nDCG}}{normalized Discounted Cumulative Gain}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{iii}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{22}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{30}}}\glsgroupskip
+\glsgroupheading{O}\relax \glsresetentrylist %
+\glossaryentryfield{ompl}{\glsnamefont{OMPL}}{Open Motion Planning Library}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{39}}}\glsgroupskip
+\glsgroupheading{P}\relax \glsresetentrylist %
+\glossaryentryfield{pddl}{\glsnamefont{PDDL}}{Planning Domain Definition Language}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{36}}}\glsgroupskip
+\glsgroupheading{R}\relax \glsresetentrylist %
+\glossaryentryfield{rrt}{\glsnamefont{RRT}}{Rapidly-Exploring Random Tree}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{39}}}\glsgroupskip
+\glsgroupheading{S}\relax \glsresetentrylist %
+\glossaryentryfield{strips}{\glsnamefont{STRIPS}}{Stanford Research Institute Problem Solver}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{36}}}\glsgroupskip
 \glsgroupheading{T}\relax \glsresetentrylist %
 \glossaryentryfield{tec}{\glsnamefont{TEC}}{Theory of event coding}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{7\delimN 8}}}%

@@ -1,4 +1,4 @@
-\glossaryentry{nDCG?\glossaryentryfield{ndcg}{\glsnamefont{nDCG}}{normalized discounted cumulative gain}{\relax }|setentrycounter[]{page}\glsnumberformat}{iii}
+\glossaryentry{nDCG?\glossaryentryfield{ndcg}{\glsnamefont{nDCG}}{normalized Discounted Cumulative Gain}{\relax }|setentrycounter[]{page}\glsnumberformat}{iii}
 \glossaryentry{LfD?\glossaryentryfield{lfd}{\glsnamefont{LfD}}{Learning from Demonstration}{\relax }|setentrycounter[]{page}\glsnumberformat}{1}
 \glossaryentry{LfD?\glossaryentryfield{lfd}{\glsnamefont{LfD}}{Learning from Demonstration}{\relax }|setentrycounter[]{page}\glsnumberformat}{1}
 \glossaryentry{LfD?\glossaryentryfield{lfd}{\glsnamefont{LfD}}{Learning from Demonstration}{\relax }|setentrycounter[]{page}\glsnumberformat}{1}
@@ -20,19 +20,33 @@
 \glossaryentry{TEC?\glossaryentryfield{tec}{\glsnamefont{TEC}}{Theory of event coding}{\relax }|setentrycounter[]{page}\glsnumberformat}{7}
 \glossaryentry{TEC?\glossaryentryfield{tec}{\glsnamefont{TEC}}{Theory of event coding}{\relax }|setentrycounter[]{page}\glsnumberformat}{7}
 \glossaryentry{TEC?\glossaryentryfield{tec}{\glsnamefont{TEC}}{Theory of event coding}{\relax }|setentrycounter[]{page}\glsnumberformat}{8}
-\glossaryentry{nDCG?\glossaryentryfield{ndcg}{\glsnamefont{nDCG}}{normalized discounted cumulative gain}{\relax }|setentrycounter[]{page}\glsnumberformat}{22}
-\glossaryentry{nDCG?\glossaryentryfield{ndcg}{\glsnamefont{nDCG}}{normalized discounted cumulative gain}{\relax }|setentrycounter[]{page}\glsnumberformat}{22}
-\glossaryentry{nDCG?\glossaryentryfield{ndcg}{\glsnamefont{nDCG}}{normalized discounted cumulative gain}{\relax }|setentrycounter[]{page}\glsnumberformat}{22}
+\glossaryentry{nDCG?\glossaryentryfield{ndcg}{\glsnamefont{nDCG}}{normalized Discounted Cumulative Gain}{\relax }|setentrycounter[]{page}\glsnumberformat}{22}
+\glossaryentry{nDCG?\glossaryentryfield{ndcg}{\glsnamefont{nDCG}}{normalized Discounted Cumulative Gain}{\relax }|setentrycounter[]{page}\glsnumberformat}{22}
+\glossaryentry{nDCG?\glossaryentryfield{ndcg}{\glsnamefont{nDCG}}{normalized Discounted Cumulative Gain}{\relax }|setentrycounter[]{page}\glsnumberformat}{22}
 \glossaryentry{LfD?\glossaryentryfield{lfd}{\glsnamefont{LfD}}{Learning from Demonstration}{\relax }|setentrycounter[]{page}\glsnumberformat}{22}
-\glossaryentry{nDCG?\glossaryentryfield{ndcg}{\glsnamefont{nDCG}}{normalized discounted cumulative gain}{\relax }|setentrycounter[]{page}\glsnumberformat}{22}
-\glossaryentry{nDCG?\glossaryentryfield{ndcg}{\glsnamefont{nDCG}}{normalized discounted cumulative gain}{\relax }|setentrycounter[]{page}\glsnumberformat}{30}
-\glossaryentry{nDCG?\glossaryentryfield{ndcg}{\glsnamefont{nDCG}}{normalized discounted cumulative gain}{\relax }|setentrycounter[]{page}\glsnumberformat}{30}
-\glossaryentry{nDCG?\glossaryentryfield{ndcg}{\glsnamefont{nDCG}}{normalized discounted cumulative gain}{\relax }|setentrycounter[]{page}\glsnumberformat}{30}
-\glossaryentry{nDCG?\glossaryentryfield{ndcg}{\glsnamefont{nDCG}}{normalized discounted cumulative gain}{\relax }|setentrycounter[]{page}\glsnumberformat}{30}
-\glossaryentry{nDCG?\glossaryentryfield{ndcg}{\glsnamefont{nDCG}}{normalized discounted cumulative gain}{\relax }|setentrycounter[]{page}\glsnumberformat}{30}
+\glossaryentry{nDCG?\glossaryentryfield{ndcg}{\glsnamefont{nDCG}}{normalized Discounted Cumulative Gain}{\relax }|setentrycounter[]{page}\glsnumberformat}{22}
+\glossaryentry{nDCG?\glossaryentryfield{ndcg}{\glsnamefont{nDCG}}{normalized Discounted Cumulative Gain}{\relax }|setentrycounter[]{page}\glsnumberformat}{30}
+\glossaryentry{nDCG?\glossaryentryfield{ndcg}{\glsnamefont{nDCG}}{normalized Discounted Cumulative Gain}{\relax }|setentrycounter[]{page}\glsnumberformat}{30}
+\glossaryentry{nDCG?\glossaryentryfield{ndcg}{\glsnamefont{nDCG}}{normalized Discounted Cumulative Gain}{\relax }|setentrycounter[]{page}\glsnumberformat}{30}
+\glossaryentry{nDCG?\glossaryentryfield{ndcg}{\glsnamefont{nDCG}}{normalized Discounted Cumulative Gain}{\relax }|setentrycounter[]{page}\glsnumberformat}{30}
+\glossaryentry{nDCG?\glossaryentryfield{ndcg}{\glsnamefont{nDCG}}{normalized Discounted Cumulative Gain}{\relax }|setentrycounter[]{page}\glsnumberformat}{30}
 \glossaryentry{LfD?\glossaryentryfield{lfd}{\glsnamefont{LfD}}{Learning from Demonstration}{\relax }|setentrycounter[]{page}\glsnumberformat}{33}
 \glossaryentry{LfD?\glossaryentryfield{lfd}{\glsnamefont{LfD}}{Learning from Demonstration}{\relax }|setentrycounter[]{page}\glsnumberformat}{34}
 \glossaryentry{HMI?\glossaryentryfield{hmi}{\glsnamefont{HMI}}{Human Machine Interaction}{\relax }|setentrycounter[]{page}\glsnumberformat}{34}
 \glossaryentry{HMI?\glossaryentryfield{hmi}{\glsnamefont{HMI}}{Human Machine Interaction}{\relax }|setentrycounter[]{page}\glsnumberformat}{34}
 \glossaryentry{LfD?\glossaryentryfield{lfd}{\glsnamefont{LfD}}{Learning from Demonstration}{\relax }|setentrycounter[]{page}\glsnumberformat}{34}
 \glossaryentry{HMI?\glossaryentryfield{hmi}{\glsnamefont{HMI}}{Human Machine Interaction}{\relax }|setentrycounter[]{page}\glsnumberformat}{34}
+\glossaryentry{STRIPS?\glossaryentryfield{strips}{\glsnamefont{STRIPS}}{Stanford Research Institute Problem Solver}{\relax }|setentrycounter[]{page}\glsnumberformat}{36}
+\glossaryentry{STRIPS?\glossaryentryfield{strips}{\glsnamefont{STRIPS}}{Stanford Research Institute Problem Solver}{\relax }|setentrycounter[]{page}\glsnumberformat}{36}
+\glossaryentry{PDDL?\glossaryentryfield{pddl}{\glsnamefont{PDDL}}{Planning Domain Definition Language}{\relax }|setentrycounter[]{page}\glsnumberformat}{36}
+\glossaryentry{PDDL?\glossaryentryfield{pddl}{\glsnamefont{PDDL}}{Planning Domain Definition Language}{\relax }|setentrycounter[]{page}\glsnumberformat}{36}
+\glossaryentry{LfD?\glossaryentryfield{lfd}{\glsnamefont{LfD}}{Learning from Demonstration}{\relax }|setentrycounter[]{page}\glsnumberformat}{37}
+\glossaryentry{LfD?\glossaryentryfield{lfd}{\glsnamefont{LfD}}{Learning from Demonstration}{\relax }|setentrycounter[]{page}\glsnumberformat}{37}
+\glossaryentry{OMPL?\glossaryentryfield{ompl}{\glsnamefont{OMPL}}{Open Motion Planning Library}{\relax }|setentrycounter[]{page}\glsnumberformat}{39}
+\glossaryentry{OMPL?\glossaryentryfield{ompl}{\glsnamefont{OMPL}}{Open Motion Planning Library}{\relax }|setentrycounter[]{page}\glsnumberformat}{39}
+\glossaryentry{OMPL?\glossaryentryfield{ompl}{\glsnamefont{OMPL}}{Open Motion Planning Library}{\relax }|setentrycounter[]{page}\glsnumberformat}{39}
+\glossaryentry{OMPL?\glossaryentryfield{ompl}{\glsnamefont{OMPL}}{Open Motion Planning Library}{\relax }|setentrycounter[]{page}\glsnumberformat}{39}
+\glossaryentry{KPIECE?\glossaryentryfield{kpiece}{\glsnamefont{KPIECE}}{Kinodynamic Planning by Interior-Exterior Cell Exploration}{\relax }|setentrycounter[]{page}\glsnumberformat}{39}
+\glossaryentry{KPIECE?\glossaryentryfield{kpiece}{\glsnamefont{KPIECE}}{Kinodynamic Planning by Interior-Exterior Cell Exploration}{\relax }|setentrycounter[]{page}\glsnumberformat}{39}
+\glossaryentry{RRT?\glossaryentryfield{rrt}{\glsnamefont{RRT}}{Rapidly-Exploring Random Tree}{\relax }|setentrycounter[]{page}\glsnumberformat}{39}
+\glossaryentry{RRT?\glossaryentryfield{rrt}{\glsnamefont{RRT}}{Rapidly-Exploring Random Tree}{\relax }|setentrycounter[]{page}\glsnumberformat}{39}

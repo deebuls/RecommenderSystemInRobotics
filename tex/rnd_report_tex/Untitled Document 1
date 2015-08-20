@@ -1,0 +1,26 @@
+@unpublished{RnDNair,
+	Abstract = {Learning from Demonstration covers methods by which a robot learns new skills
+using human guidance. Learning from Demonstration in robotic systems involves a
+number of important aspects, such as deducing the relevant features of the observa-
+tions, modelling based on the relevant features and execution based on the model. We
+consider the problem of inferring the pertinent features using a set of demonstrations,
+that should be reproduced by the robot. This is challenging because the number
+of demonstrations on which the learning has to be made are few. In this work, we
+improvise an approach which is inspired by recommender systems to have an expert
+knowledge base. This knowledge base is then used to recommend the relevant features
+to imitate . The expert knowledge base is a reduced subset of the whole search space
+of the features to be imitated. The key novelty of our work is in the expert knowledge
+base used for recommendation, which is structured based on effect metrics. We ar-
+gue that the structured knowledge base helps in inferring the relevant features using
+very less demonstrations. In this work we use the skill based framework for robot
+programming. Under this framework we try to learn the ”move” motion primitive.
+The relevant features for successful reproduction of the ”move” motion primitive are
+learnt using the method proposed. The approach was evaluated in simulation and
+using data acquired from the youBot robot. The results shows promising progress as
+it could learn with less number of demonstrations.
+},
+	Author = {Deebul Nair},
+	Month = {August},
+	Note = {SS2014 FH-BRS - Pl{\"o}ger, Awaad supervising},
+	Title = {Use of Recommender System in Robotics},
+	Year = {2015}}

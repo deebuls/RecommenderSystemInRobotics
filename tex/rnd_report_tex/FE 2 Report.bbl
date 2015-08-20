@@ -123,6 +123,13 @@ Isham, V. (1981).
 \newblock {\em International Statistical Review/Revue Internationale de
   Statistique}, pages 21--43.
 
+\bibitem[Jain et~al., 2013]{jain_learning_2013}
+Jain, A., Wojcik, B., Joachims, T., and Saxena, A. (2013).
+\newblock Learning trajectory preferences for manipulators via iterative
+  improvement.
+\newblock In {\em Advances in {Neural} {Information} {Processing} {Systems}},
+  pages 575--583.
+
 \bibitem[Jain et~al., 1998]{jain_deformable_1998}
 Jain, A.~K., Zhong, Y., and Dubuisson-Jolly, M.-P. (1998).
 \newblock Deformable template models: A review.

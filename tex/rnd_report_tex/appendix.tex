@@ -1,4 +1,5 @@
 \section{Knowledge base generator}
+\label{knowledge base generator}
 \begin{figure}[htp]
 \centering
 \includegraphics[scale=0.5]{images/tool/tool.png}
@@ -8,9 +9,9 @@ templates 4) adding new templates}
 \label{}
 \end{figure}
 
-On of the limitations of the current efforts in LfD is adding new features for
+On of the limitations of the current efforts in \acrshort{lfd} is adding new features for
 new task \cite {argall_survey_2009}. Due to the intuitive nature of
-demonstration, LfD algorithms have the potential to make robot programming
+demonstration, \acrshort{lfd} algorithms have the potential to make robot programming
 accessible for everyday users who have no programming experience and want to
 customize robot behaviours. The use of current approaches by the researchers
 , however, is likely to lead to situations in which users attempt to
@@ -26,12 +27,30 @@ and combinations possible. The above mentioned tool can be used for rapid
 generation and modification of the templates.
 
 
-
+\newpage
 \section{Use of Recommender system in robotics}
+We started our work based on the notion of using Recommender system in the 
+field of robotics. We could partially use the notion of recommender system 
+in our work. In the time period of the research various other fields where
+the recommender system could be used were identified.
+This section list some of the fields of robotics in which technology of 
+recommender system fits appropriately.
+
 \subsection{Preferences of users in Task Planing}
-\subsection{Kernel Recommendation in SVM}
-Firstly, linearity is rather special, and outside quantum mechanics no
-      model of a real system is truly linear. Secondly, detecting linear
+With the rise of service robotics in home environments, 
+personalized task planning is emerging as a new field of interest.
+The robots has to learn the user preferences based on its experience 
+with the user and able to modify its decisions regularly.
+A common example would be suppose if a user asks the robot for a cup of 
+tea, the robot has to make a decision on which cup would be an appropriate 
+choice for the user. This choice of the user can be learnt using 
+recommender systems.
+Works by \cite{abdo_learning_2013} and \cite{abdo_robot_2015} have already 
+made progress in this field by using crowd sourcing data.
+
+\subsection{Kernel Recommendation in learning algorithms}
+"Firstly, linearity is rather special, and outside quantum mechanics no
+model of a real system is truly linear. Secondly, detecting linear
 relations has been the focus of much research in statistics and machine
 learning for decades and the resulting algorithms are well understood, well
 developed and efficient. Naturally, one wants the best of both worlds. So, if a
@@ -44,28 +63,42 @@ non-linear model in the input space. This approach can be used in both
 classification and regression problems. The choice of kernel function is
 crucial for the success of all kernel algorithms because the kernel constitutes
 prior knowledge that is available about a task. Accordingly, there is no free
-lunch (see No Free Lunch Theorems) in kernel choice.\footnote{\url{http://www.svms.org/kernels/}}
-    * Recommender system : Collabrative Filter based can be used to determine 
-which algo to use.
+lunch (see No Free Lunch Theorems) in kernel choice."
+\footnote{\url{http://www.svms.org/kernels/}}
 
-\subsection{Motion Path Planning algo in Planning }
-     OMPL has implemented the following planners
-      \url{http://ompl.kavrakilab.org/planners.html}
-     Which planner to select can be done automatically explained here 
-        "How OMPL selects a control-based planner?"
-If you use the ompl control SimpleSetup class (highly recommended) to define
-and solve your motion planning problem, then OMPL will automatically select an
-appropriate planner (unless you have explicitly specified one). If the state
+Collaborative based recommender system can be used to determine the kernel 
+for learning algorithms. This problem is similar to the n-bandit problem where
+the user has to decide on which kernel to keep the bet.
+
+\cite{matikainen_multi-armed_2013} tried to solve the n-bandit problem to
+determine which state machine gives better coverage of the floor.
+Similar attempts can be made in learning the kernel .
+
+\subsection{Motion Path Planning algorithms }
+\acrfull{ompl} has implemented the following planners \url{http://ompl.kavrakilab.org/planners.html}
+The selection of the planner for a particular tasks is active scientific 
+problem.
+If you use the \acrshort{ompl} control , then \acrshort{ompl} will automatically select an
+appropriate planner (unless you have explicitly specified one).
+If the state
 space has a default projection (which is going to be the case if you use any of
-the built-in state spaces), then it will use KPIECE. This planner has been
+the built-in state spaces), then it will use \acrfull{kpiece}. This planner has been
 shown to work well consistently across many real-world motion planning
-problems, which is why it is the default choice. In case the state space has no
-default projection, RRT will be used. Note that there are no bidirectional
-control-based planners, since we do not assume that there is a steering
-function that can connect two states exactly."
-     Again Recommender Collabrative filter can be used to decide which algo to
-      be used for recommendation.
+problems, which is why it is the default choice.
+In case the state space has no
+default projection, \acrfull{rrt} will be used. 
+Can we recommend which planner to use in which situation based on previous 
+knowledge of the planner in similar situations.
+Content based recommender system can be used in such situations to determine 
+which planner will be suitable in current situation.
 
+\subsection{Learning trajectory preference of users}
+\cite{jain_learning_2013} have worked on learning the trajectory preferences 
+of users by on-line learning their feedbacks.
+Similar approach can be used as a recommender system to learn 
+the user preference of a trajectory for doing a particular tasks.
+
+\newpage
 \section{Softwares and tools}
 
 A software implementation and number of tools have been included in the attached

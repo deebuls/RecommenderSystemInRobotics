@@ -59,30 +59,30 @@ functioning. Using \acrshort{lfd} we try to learn the post-condition(goal) of th
 motion primitives in our framework consist of a teaching part and an execution phase, as
 illustrated in Figure \ref{motion primitive} (extended from \cite{bogh_does_2012} and \cite{andersen_using_2014})
 The motion primitive using this approach is well suited for the skill
-based framework as explained in \cite{pedersen_robot_2015}. The motion primitives 
-are explained in detail in section \ref{sec:Learning motion primitive}
+based framework as explained in \cite{pedersen_robot_2015}. 
 \begin{figure}[htp] \centering
     \includegraphics[scale=0.5]{images/motion_primitive_color.png}
     \caption[General structure of a motion primitive]{Proposed general
     structure of a motion primitive. A motion primitive consist of Learning
 Phase and Execution Phase.} \label{motion primitive} \end{figure}
 
-The motion primitive as shown in figure{motion primitive} consist of two parts 
+The motion primitive as shown in figure \ref{motion primitive} consist of two parts 
 the learning part and the execution part.
 In the learning part the demonstrations are taken as an input and the relevant features are 
 extracted. This extracted features are then fed to the execution part.
 The execution part is represented as a combination of pre and post conditions of features.
 Based on the relevant features the execution phase predicts the post conditions 
 and executes  the motion primitive.
-The section \ref{sec:Learning motion primitive} the mathematical formulation of the 
-motion primitive is discussed.
+In section \ref{sec:Learning motion primitive} the mathematical formulation of the 
+motion primitive is discussed in details.
 
 \subsection{Goal Based Learning from Demonstration}
 A large body of work uses
 goal based or plan based representation of learning\\
 (\cite{friedrich_robot_1995},
 \cite{nicolescu_natural_2003}, \cite{csibra_obsessed_2007}, \cite{demiris_prediction_2007},
-\cite{veeraraghavan_teaching_2008}, \cite{lee_effective_2009}, \cite{hommel_action_2009},\cite{abdo_learning_2013}). 
+\cite{veeraraghavan_teaching_2008}, \cite{lee_effective_2009}, \cite{hommel_action_2009}, \\ 
+\cite{abdo_learning_2013}). 
 The majority of the work in these try to infer the underlying goals and intent of
 the demonstrator. The terms goals and intent are used interchangeable; but
 goal refers to the immediate desirable state while intent refers to longer term

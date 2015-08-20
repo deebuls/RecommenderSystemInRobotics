@@ -2,14 +2,43 @@
 In this work we presented relevant feature selection based on
 a knowledge base recommendation. The proposed approach was an 
 extension to the framework proposed by \cite{abdo_inferring_2014}.
-
-We have proposed a possible framework for representing a motion primitive 
+We also have proposed a possible framework for representing a motion primitive 
 in a skill based framework by \cite{pedersen_robot_2015} . 
+The method was evaluated on experiments conducted on simulation and 
+the real robot
 
+\begin{itemize}
+    \item \textbf{Successful learning on fewer demonstrations} \\
+       The result showed that we could successfully learn on fewer
+       demonstrations. All the experiments conducted the relevant
+       features could be recommended using just \textbf{three} demonstrations.
 
-Our results show that robot trained using our recommendations not only learns
-the goal on demonstrated Motion primitives, but also generalizes well to do
-Motion Primitives from initial configurations not demonstrated before.
+    \item \textbf{Structured nature of the knowledge base helps in recommending} \\
+        The knowledge base was re structured to segregate templates based on the 
+        effect metrics. This ensured that the correct templates are made available 
+        for recommendations. This structure of the knowledge base acted as a  catalyst 
+        for recommending in less number of demonstrations.
+
+    \item \textbf{Generalization to un-demonstrated start states}\\ Our results
+        show that robot trained using our recommendations not only learns the
+        goal on demonstrated motion primitives, but also generalizes well to do
+        motion primitives from initial configurations not demonstrated before.
+
+    \item \textbf{Use of proposed method to non-experts}\\
+        Using the knowledge base generator \ref{knowledge base generator}
+        we could easily add new features and templates. This helps
+        in ease for non-experts to teach the robot new motion primitives.
+
+    \item \textbf{Scalability of the approach}\\
+        The approach was specifically made to work under the skill based framework
+        \ref{apx:skill based framework} , the approach is highly scalable.
+        New motion primitives can be easily added and the existing motion
+        primitives can be resued to form new skills. Specially in the 
+        case of industrial robotics, the author claims that it can be 
+        utilized for solving majority of the tasks.
+
+\end{itemize}
+
 
 Our application scenarios of learning goal from demonstrations goes beyond the
 application scenarios that previous work has considered.
